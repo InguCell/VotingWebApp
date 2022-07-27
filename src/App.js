@@ -1,12 +1,13 @@
 import React from "react";
-import FooterComponent from "./components/footer/footer";
-//import Forms from "./components/forms/forms";
-//import Comments from "./components/forms/comments/comments";
-//import NavBar from "./components/navbar/styles/nav";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <FooterComponent/>
+
+    <>
+      <Navbar />
+    </>
   );
 }
 
