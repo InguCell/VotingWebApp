@@ -34,7 +34,7 @@
 }
 
 
-/* 360, 375, 390, 393  412*/
+/* 360px, 375px, 390px, 393px,  412px, 540px, 412*/
 @media screen and (min-width: 360px) and (orientation: portrait){
     .nav-items-container{
         left:-3rem;
@@ -54,7 +54,7 @@
 }
 
 
-/* iPadAir*/
+/* 768px, 820px, 912px, */
 @media screen and (min-width: 768px) and (orientation: portrait){
     .nav-items-container{
         left:-3rem;
@@ -66,6 +66,72 @@
      }
 
 }
+
+
+
+@media screen and (min-width: 791px) and (orientation: landscape){
+    .nav-items-container{
+        left:-2.9rem;
+    }
+
+    .buttons-container button{
+        margin-left: -9.1rem;
+        margin-top:0.9rem;
+     }
+
+}
+
+@media screen and (min-width: 1024px) and (orientation: landscape){
+    .nav-items-container{
+        left:-1rem;
+    }
+
+    .buttons-container button{
+        margin-left: -6.0rem;
+        margin-top:0.4rem;
+     }
+
+     .buttons-container .login-button{
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+
+}
+
+@media screen and (min-width: 1280px) and (orientation: landscape){
+    .nav-items-container{
+        left:5rem;
+    }
+
+    .buttons-container button{
+        margin-left: 6rem;
+        margin-top:0.4rem;
+     }
+
+     .buttons-container .login-button{
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+}
+
+@media screen and (min-width: 1300px) and (orientation: landscape){
+    .nav-items-container{
+        left:13rem;
+    }
+
+    .buttons-container button{
+        margin-left: 23rem;
+        margin-top:0.4rem;
+     }
+
+     .buttons-container .login-button{
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+}
+
+
+
 
 
 
