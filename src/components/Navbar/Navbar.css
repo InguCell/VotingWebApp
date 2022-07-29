@@ -34,6 +34,42 @@
 }
 
 
+/* 360, 375, 390, 393  412*/
+@media screen and (min-width: 360px) and (orientation: portrait){
+    .nav-items-container{
+        left:-3rem;
+    }
+
+    .buttons-container button{
+        margin-left: -9rem;
+        border: none;
+        margin-top:1rem;
+     }
+
+     .buttons-container .login-button{
+      padding-top:0.2rem;
+      position: relative;
+      top:-0.2rem;
+    }
+}
+
+
+/* iPadAir*/
+@media screen and (min-width: 768px) and (orientation: portrait){
+    .nav-items-container{
+        left:-3rem;
+    }
+
+    .buttons-container button{
+        margin-left: -9.2rem;
+        margin-top:1.9rem;
+     }
+
+}
+
+
+
+
 
 
 
