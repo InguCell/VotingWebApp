@@ -1,0 +1,92 @@
+.contact_body{
+    margin: 40px;
+}
+.header{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.header h1{
+    color: rgb(140,31,31);
+}
+
+#name, #mail, #dept{
+    width:70%;
+    border-radius: 12px;
+    border:2px solid rgb(140,31,31);
+    transition: all 0.3s;
+}
+
+#form_button{
+    width:70%;
+    border:none;
+    background:rgb(140,31,31);
+    transition: all 0.3s;
+}
+
+#form_button:hover{
+    transition: all 0.3s;
+    background-color: rgb(177, 145, 145);
+    color: rgb(0, 0, 0);
+}
+
+.form_Main_Box, .contact_image{
+    width: 50%;
+    object-fit:cover;
+}
+
+.contact_image img{
+    width: 100%;
+    object-fit:cover;
+    height: 100%;
+}
+.contact_image{
+    height: 470px;
+    margin-top: 15px;
+    float: right;
+}
+
+input[type="textarea"]{
+    width: 70%;
+    height: 150px;
+    border-radius: 12px;
+    border: 2px solid rgb(140,31,31);
+    transition: all 0.3s;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+    outline: none;
+}
+
+input[type="textarea"]:focus, #name:focus, #mail:focus, #dept:focus{
+    transition: all 0.3s;
+    border: 0 none;
+    box-shadow: 0 0 13px rgb(140,31,31);
+}
+
+@media (max-width:1000px) {
+    .contact_image{
+        float: none;
+    }
+    .second_row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #name, #mail, #dept,input[type="textarea"],#form_button {
+        width: 100%;
+    }
+
+    .form_Main_Box{
+        margin-top: 50px;
+    }
+    .header{
+        font-size: 0.8em;
+    }
+
+
+    
+}
+
+
+
+

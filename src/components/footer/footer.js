@@ -17,10 +17,10 @@ export default function Footer(){
                     <Nav.Link>Limited All rights reserved</Nav.Link>
                     </div>
                     
-                    <div className="col">
+                    {/* <div className="col">
                     <footer_Title>Product</footer_Title>
                     <Nav.Link>Web and App</Nav.Link>
-                    </div>
+                    </div> */}
 
                     <div className="col">
                     <footer_Title>Legal</footer_Title>
@@ -32,7 +32,7 @@ export default function Footer(){
                     <div className="col">
                     <footer_Title>Connect</footer_Title>
                     <footer_Title_2>E-mail:</footer_Title_2>
-                    <Nav.Link>cu-developerscommunity@gmail.com</Nav.Link>
+                    <Nav.Link>cu.developerscommunity@gmail.com</Nav.Link>
                     <Nav.Link><span>Location:</span> Central University</Nav.Link>
                     <Nav.Link><span>Telephone:</span> 0559846211</Nav.Link>
                     </div>

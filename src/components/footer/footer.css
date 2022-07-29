@@ -16,7 +16,8 @@ footer_Title_2{
 
 
 .Main_footer{
-    background-color: rgb(245, 238, 238);
+    background-color: rgb(140,31,31);
+    color: beige;
 }
 
 
@@ -39,7 +40,7 @@ footer_Title_2{
 
 .row{
     display: grid;
-   grid-template-columns: repeat(auto-fill,minmax(230px, 1fr));
+   grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
    grid-column-gap: 60px;
 }
 
@@ -49,10 +50,21 @@ span{
 
 @media (max-width:1200px) {
     .row{
-    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
     grid-row-gap: 60px;
+    }   
+}
+
+@media only screen and (max-width:600px) {
+    .Main_footer, footer_Title, footer_Title_2{
+        font-size: 0.9em;
     }
     
-
     
+}
+
+@media only screen and (max-width:769px) {
+    .Main_footer, footer_Title, footer_Title_2{
+        font-size: 0.95em;
+    }
 }
