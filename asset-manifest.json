@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/VotingWebApp/static/css/main.6379b18b.css",
+    "main.js": "/VotingWebApp/static/js/main.a2675844.js",
+    "static/media/simpson.JPG": "/VotingWebApp/static/media/simpson.cc1e7495222de866b59e.JPG",
+    "index.html": "/VotingWebApp/index.html",
+    "main.6379b18b.css.map": "/VotingWebApp/static/css/main.6379b18b.css.map",
+    "main.a2675844.js.map": "/VotingWebApp/static/js/main.a2675844.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6379b18b.css",
+    "static/js/main.a2675844.js"
+  ]
+}
