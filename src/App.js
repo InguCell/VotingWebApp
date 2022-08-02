@@ -3,22 +3,32 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar/Navbar";
 import  Footer from "./components/Footer/Footer";
 import Contact from "./components/contact-page/contact";
-// import  Footer from "./components/Footer/Footer";
+import Landing from  ".//routes/landing-page/LandingPage";
+import { BrowserRouter, Outlet, Route, Router, Routes} from 'react-router-dom';
 
 
 function App() {
   return (
 
-    <>
-      <Navbar />
+    <div>
+   
+<BrowserRouter>
+<Navbar />
 
-      <></>
-      <></>
-      <Contact/>
-      <></>
-      <></>
-      <Footer/>
-    </>
+<Routes>
+  <Route path="/" element={ <Landing /> }></Route>
+  <Route path="/contact" element={ <Contact/> } />
+  
+</Routes>
+<Outlet />
+
+
+<Footer/>
+</BrowserRouter>
+
+
+     
+    </div>
   );
 }
 
