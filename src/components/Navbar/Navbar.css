@@ -83,17 +83,20 @@
 
 @media screen and (min-width: 1024px) and (orientation: landscape){
     .nav-items-container{
-        left:-1rem;
+        left:-2.3rem;
     }
 
     .buttons-container button{
-        margin-left: -6.0rem;
+        margin-left: -6.6rem;
         margin-top:0.4rem;
      }
 
      .buttons-container .login-button{
         padding-top: 0.3rem;
         padding-bottom: 0.3rem;
+    }
+    .buttons-container .register-button{
+       left: 7.7rem;
     }
 
 }
@@ -116,11 +119,11 @@
 
 @media screen and (min-width: 1300px) and (orientation: landscape){
     .nav-items-container{
-        left:13rem;
+        left:5rem;
     }
 
     .buttons-container button{
-        margin-left: 23rem;
+        margin-left: 7rem;
         margin-top:0.4rem;
      }
 
