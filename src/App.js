@@ -4,29 +4,30 @@ import Navbar from "./components/Navbar/Navbar";
 import  Footer from "./components/Footer/Footer";
 import Contact from "./components/contact-page/contact";
 import Landing from  ".//routes/landing-page/LandingPage";
-import { BrowserRouter, Route, Router, Routes} from 'react-router-dom';
+import { BrowserRouter, Outlet, Route, Router, Routes} from 'react-router-dom';
 
 
 function App() {
   return (
 
     <div>
-    <Navbar />
+   
 <BrowserRouter>
-<Routes>
-  <Route exact path="/" element={ <Landing /> }></Route>
-</Routes>
+<Navbar />
 
 <Routes>
-  <Route path="/contact" element={ <Contact/> }></Route>
+  <Route path="/" element={ <Landing /> }></Route>
+  <Route path="/contact" element={ <Contact/> } />
+  
 </Routes>
+<Outlet />
 
 
-
+<Footer/>
 </BrowserRouter>
 
 
-      <Footer/>
+     
     </div>
   );
 }

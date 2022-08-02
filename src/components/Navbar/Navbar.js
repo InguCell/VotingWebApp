@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap'
 import "./Navbar.css";
 import logo from "./images/central-logo.png";
+import { Link } from 'react-router-dom';
 
 export default function () {
    
@@ -18,10 +19,19 @@ const buttons = {
 
   const nav_items = <div className='nav-items-container'>
     <Nav className="me-auto">
-        <Nav.Link href="#features" className='items' style={{marginLeft:"3.1rem"}}>Home</Nav.Link>
-        <Nav.Link href="#pricing"  className='items' style={{marginLeft:"3.1rem"}}>About</Nav.Link>
+     
+<Link to="/">
+<Nav.Link href="#features" className='items' style={{marginLeft:"3.1rem", textDecoration:"none"}}>
+
+Home</Nav.Link>
+</Link>
+          
+        <Nav.Link href="#pricing"  className='items' style={{marginLeft:"3.1rem", textDecoration:"none"}}>About</Nav.Link>
         <Nav.Link href="#pricing" className='items' style={{marginLeft:"3.1rem"}}>FAQ</Nav.Link>
-        <Nav.Link href="#pricing" className='items' style={{marginLeft:"3.1rem"}}>Contact</Nav.Link>
+        <Link to="/contact">
+        <Nav.Link href="#pricing" className='items' style={{marginLeft:"3.1rem" , textDecoration:"none"}}>Contact</Nav.Link>
+        </Link>
+        
     </Nav>
   </div>
 
