@@ -5,14 +5,18 @@ import "./LandingPage.css"
 
 
 export default function landingpage() {
-  return (
-    <div> 
+
+  const buttons = {
+    register: <button className='register-button' class="register-button">Register as a voter</button>
+  }
 
 
-<Container fluid>
-      
+const buttons_conatiner = <div className='landing-buttons-container'>
+  {buttons.register}
+</div>
 
-<div class="part1">
+const part1 = <Container fluid>
+      <div class="part1">
 <img class="picture1" src={girl_picture} /> 
 <div className='writing-container'>
 <h2 class="part1-writing">Fast, Secured and <br />Accessible Voting System</h2>
@@ -21,15 +25,18 @@ export default function landingpage() {
 Voting made easy for you. This website is designed to ensure<br />
  a secured voting session for every student
 
+ {buttons_conatiner}
 </div>
-
 </div>
- 
-</div>
+ </div>
 
     </Container>
 
 
+
+  return (
+    <div> 
+          {part1}
     </div>
   )
 }
