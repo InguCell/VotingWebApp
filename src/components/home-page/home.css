@@ -1,0 +1,135 @@
+.home_body{
+    margin: 40px;
+}
+
+.home_header{
+    margin-bottom: 30px;
+    text-align: left;
+}
+#text, #text1{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+#text1{
+    color: rgb(140,31,31);
+}
+
+.home_header h1{
+    color: rgb(140,31,31);
+    font-weight:700;
+    font-size:70px;
+}
+
+#student_mail, #department, #number, #pass, #repass{
+    width:70%;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid rgb(140,31,31);
+    height: 50px;
+    transition: all 0.3s;
+}
+
+#sign_in_button{
+    width:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    border:none;
+    background:rgb(140,31,31);
+    transition: all 0.3s;
+}
+
+#sign_in_button:hover{
+    transition: all 0.3s;
+    background-color: rgb(177, 145, 145);
+    color: rgb(0, 0, 0);
+}
+
+.home_image, .home_form_box{
+    width: 50%;
+    object-fit:cover;
+}
+
+.home_image img{
+    width: 100%;
+    object-fit:cover;
+    height: 600px;
+}
+.home_image{
+    height: 300px;
+    margin-top: 15px;
+    float: right;
+    border: 1px solid rgb(140,31,31) ;
+}
+
+#student_mail:focus, #department:focus, #number:focus, #pass:focus, #repass:focus{
+    transition: all 0.3s;
+    border: 0 none;
+    box-shadow: 0 0 13px rgb(140,31,31);
+}
+
+@media(min-width:1920px) {
+    #student_mail, #department, #number, #pass, #repass {
+        width: 60%;
+    }
+    .home_header{
+        margin-left: 72px;
+    }  
+}
+
+@media(max-width:1366px) {
+    #student_mail, #department, #number, #pass, #repass {
+        width: 70%;
+    }
+    .home_header{
+        margin-left: 72px;
+    }  
+}
+
+@media (max-width:1000px) {
+    .home_image{
+        float: none;
+    }
+    .home_header{
+        margin-bottom: 0.9em;
+        margin-left: 0;
+        text-align: center;
+    }
+    .second_row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #student_mail, #department, #number, #pass, #repass,#sign_in_button {
+        width: 100%;
+    }
+
+    .home_form_box{
+        margin-top: 50px;
+    }
+    .home_header{
+        font-size: 0.8em;
+    }   
+}
+
+@media (max-width:768px) {
+    .home_image, .home_form_box{
+        width: 70%;
+    }
+}
+
+@media (max-width:500px) {
+    .home_image, .home_form_box{
+        width: 80%;
+    }
+}
+
+@media (max-width:360px) {
+    .home_image, .home_form_box{
+        width: 90%;
+    }
+}
+
