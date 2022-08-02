@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap'
 import "./Navbar.css";
+import logo from "./images/central-logo.png";
 
 export default function () {
    
@@ -26,7 +27,9 @@ const buttons = {
 
   const classic_nav = <Navbar collapseOnSelect expand="lg" bg="light">
   <Container>
-    <Navbar.Brand href="#home">Central University</Navbar.Brand>
+    <Navbar.Brand href="#home">
+    <img src={logo} alt=""></img>
+    </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
             {nav_items}     
