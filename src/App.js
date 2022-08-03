@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar/Navbar";
 import  Footer from "./components/Footer/Footer";
 import Contact from "./components/contact-page/contact";
-import Landing from  ".//routes/landing-page/LandingPage";
+import Landing from  "./components/routes/landing-page/LandingPage";
 import { BrowserRouter, Outlet, Route, Router, Routes} from 'react-router-dom';
 
 
