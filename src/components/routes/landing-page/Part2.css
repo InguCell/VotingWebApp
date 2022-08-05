@@ -50,6 +50,10 @@
 
 @media screen and (min-width: 360px) and (orientation: portrait){
 
+    .part2{
+        height: 77rem;
+    }
+
     .cards2{
         margin-top: -3.8rem;
     }
@@ -349,6 +353,10 @@
 }
 
 @media screen and (min-width: 820px) and (orientation: portrait){
+
+    .part2{
+        height: 35rem;
+    }
     .cards2{
         margin-top: 5rem;
         margin-left: -2rem;
@@ -402,6 +410,10 @@
 
 
 @media screen and (min-width: 768px) and (orientation: portrait){
+.part2{
+    height: 36rem;
+}
+
     .cards2{
         margin-top: 5rem;
         margin-left: -2rem;

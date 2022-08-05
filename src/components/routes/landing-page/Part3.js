@@ -4,9 +4,10 @@ export default function
 
 () {
   return (
-    <div style={{fontSize:"8rem"}}>
+    <div style={{fontSize:"1rem",
+    marginTop:"30rem"}}>
 
-        Part 3 is under Construction ... Stay Tuned
+        Part 3 & 4 is under Construction ... Stay Tuned  ............ Yours faithfull InguCell
     </div>
   )
 }
