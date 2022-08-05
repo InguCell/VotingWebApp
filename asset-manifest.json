@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/VotingWebApp/static/css/main.cbfbcd4f.css",
-    "main.js": "/VotingWebApp/static/js/main.426ce1fe.js",
+    "main.css": "/VotingWebApp/static/css/main.fb0d4e84.css",
+    "main.js": "/VotingWebApp/static/js/main.2ffcf5ab.js",
     "static/media/picture1.png": "/VotingWebApp/static/media/picture1.413aa2bae3cc3c0d9bff.png",
     "static/media/simpson.JPG": "/VotingWebApp/static/media/simpson.cc1e7495222de866b59e.JPG",
     "static/media/central-logo.png": "/VotingWebApp/static/media/central-logo.1570349d369ea0cf2650.png",
     "index.html": "/VotingWebApp/index.html",
-    "main.cbfbcd4f.css.map": "/VotingWebApp/static/css/main.cbfbcd4f.css.map",
-    "main.426ce1fe.js.map": "/VotingWebApp/static/js/main.426ce1fe.js.map"
+    "main.fb0d4e84.css.map": "/VotingWebApp/static/css/main.fb0d4e84.css.map",
+    "main.2ffcf5ab.js.map": "/VotingWebApp/static/js/main.2ffcf5ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbfbcd4f.css",
-    "static/js/main.426ce1fe.js"
+    "static/css/main.fb0d4e84.css",
+    "static/js/main.2ffcf5ab.js"
   ]
 }
