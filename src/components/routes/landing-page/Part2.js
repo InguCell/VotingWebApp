@@ -16,7 +16,7 @@ const part2 =
 <Row>
         <Col xs>
 <div className='card1-pos'>
-<Card className='cards cards1' style={{border:""}}>
+<Card className='cards cards1'>
       <Card.Img variant="top" src={star} className="star" />
       <div>
            <img src={secure} className='secure'></img>
@@ -40,7 +40,7 @@ safe and secured
         <Col xs={{ order: 12 }}>
 
             <div className='card2-pos'>
-            <Card className='cards cards2' style={{border:""}}>
+            <Card className='cards cards2'>
       <Card.Img variant="top" src={star} className="star" />
       <div>
            <img src={news} className='news secure'></img>
@@ -64,7 +64,7 @@ safe and secured
         <Col xs={{ order: 1 }}>
 
             <div className='card3-pos'>
-            <Card className='cards cards3' style={{border:""}}>
+            <Card className='cards cards3'>
       <Card.Img variant="top" src={star} className="star star-alt3" />
       <div>
            <img src={vote} className='vote secure'></img>
@@ -74,7 +74,7 @@ safe and secured
         Real Time Results
             </h3></Card.Title>
         <Card.Text><p class="card-sub-heading sub-alt3">
-        View real time votinf results and scores for each candidates
+        View real time voting results and scores for each candidates
         </p>
       
         </Card.Text>

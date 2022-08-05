@@ -412,6 +412,8 @@
       font-size: 4.2rem;
       font-weight: bold;
     }
+
+
     
     .writing-container{
         margin-top: -17rem;
@@ -441,6 +443,7 @@
      .landing-buttons-container .register-button{
          background-color:#8c1f1f;
          color: white;
+         margin-top: 0.9rem;
      } 
      
    
