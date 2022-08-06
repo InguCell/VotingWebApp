@@ -6,10 +6,30 @@ import news from "./news.png"
 import vote from "./vote.png"
 
 export default function Part2() {
+
+
+  const features = 
+  
+  <div className='heading'>
+    <Container fluid >
+   <div className='top-heading'>
+    Our Features
+    <span className='sub-top-heading'>
+   A secured system that provides an easy way to vote at your comfort
+   </span>
+   </div>
+  </Container>
+    </div>
 //container ready
 
-const part2 =  
+
+const part2 = 
+<section>
+
 <div className='cards part2'>
+
+  
+
 <Container fluid>
   
   <Row>
@@ -36,7 +56,7 @@ safe and secured
         </Col>
 
         <Col>
-<div className='card-body'>
+<div className='card-body body2'>
 <Card className='cards'>
   <div>
   <Card.Img variant="top" src={news} className="img" />
@@ -44,11 +64,12 @@ safe and secured
 
       <Card.Body class="card-sub">
         <Card.Title><h3 class="card-heading">
-        Secured System
+        Vote Online
             </h3></Card.Title>
         <Card.Text><p class="card-sub-heading">
-        With our system your data is 
-safe and secured
+        With just a few clicks,you can 
+vote for your preferred canditates
+
         </p>
       
         </Card.Text>
@@ -59,7 +80,7 @@ safe and secured
 
 
         <Col>
-<div className='card-body'>
+<div className='card-body body3'>
 <Card className='cards'>
   <div>
   <Card.Img variant="top" src={vote} className="img" />
@@ -67,11 +88,11 @@ safe and secured
 
       <Card.Body class="card-sub">
         <Card.Title><h3 class="card-heading">
-        Secured System
+        Real Time Results
             </h3></Card.Title>
         <Card.Text><p class="card-sub-heading">
-        With our system your data is 
-safe and secured
+        View real time voting results and 
+score for each canditates
         </p>
       
         </Card.Text>
@@ -90,9 +111,16 @@ safe and secured
  
 </Container>
 </div>
+
+
+</section>
+
+
  
   return (
     <div>
+    
+    {features}
         {part2}
     </div>
   )
