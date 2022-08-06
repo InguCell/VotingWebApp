@@ -4,14 +4,19 @@
 .header{
     margin-bottom: 30px;
     text-align: center;
+    font-weight: 400;
+    font-size: 1.4rem;
 }
 
 .header h1{
     color: rgb(140,31,31);
+    font-weight: bold;
+    font-size: 3rem;
 }
 
 #name, #mail, #dept{
     width:70%;
+    height: 50px;
     border-radius: 12px;
     border:2px solid rgb(140,31,31);
     transition: all 0.3s;
@@ -19,6 +24,7 @@
 
 #form_button{
     width:70%;
+    height: 50px;
     border:none;
     background:rgb(140,31,31);
     transition: all 0.3s;
@@ -48,7 +54,7 @@
 
 input[type="textarea"]{
     width: 70%;
-    height: 150px;
+    height: 200px;
     border-radius: 12px;
     border: 2px solid rgb(140,31,31);
     transition: all 0.3s;
@@ -81,12 +87,49 @@ input[type="textarea"]:focus, #name:focus, #mail:focus, #dept:focus{
     }
     .header{
         font-size: 0.8em;
-    }
-
-
-    
+    } 
 }
 
+@media (max-width:768px) {
+    .contact_image, .form_Main_Box{
+        width: 70%;
+    }
+    .header h1{
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width:500px) {
+    .form_Main_Box{
+        width: 80%;
+    }
+    .header{
+        font-size: 0.8em;
+        margin-bottom: 0px
+    }
+
+    .header h1{
+        font-size: 30px;
+    }
+
+    .header >p{
+        margin-bottom: 0;
+    }
+
+    .contact_image{
+        display: none;
+    }
+    .contact_body{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:360px) {
+    .contact_image, .form_Main_Box{
+        width: 90%;
+    }
+}
 
 
 

@@ -10,7 +10,7 @@ export default function () {
 
 const buttons = {
   login: <button className='login-button'>Login</button>,
-  register: <button className='register-button'>Register as a voter</button>
+  register: <button className='register-button'><Link to="/register" style={{textDecoration:"none", color:"white"}}>Register as a voter</Link></button>
 }
   
   const buttons_container = <div className='buttons-container'>
@@ -20,15 +20,16 @@ const buttons = {
   const nav_items = <div className='nav-items-container'>
     <Nav className="me-auto">
      
-<Link to="/">
+<Link to="/" style={{textDecoration:"none"}}>
 <Nav.Link href="#features" className='items' style={{marginLeft:"3.1rem", textDecoration:"none"}}>
 
 Home</Nav.Link>
-</Link>
-          
+</Link>          
         <Nav.Link href="#pricing"  className='items' style={{marginLeft:"3.1rem", textDecoration:"none"}}>About</Nav.Link>
+        <Link to="/faq" style={{textDecoration:"none"}}>
         <Nav.Link href="#pricing" className='items' style={{marginLeft:"3.1rem"}}>FAQ</Nav.Link>
-        <Link to="/contact">
+        </Link>
+        <Link to="/contact" style={{textDecoration:"none"}}>
         <Nav.Link href="#pricing" className='items' style={{marginLeft:"3.1rem" , textDecoration:"none"}}>Contact</Nav.Link>
         </Link>
         

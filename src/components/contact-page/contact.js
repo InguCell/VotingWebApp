@@ -1,7 +1,7 @@
 import React from "react";
 import {Form, Container, Button} from "react-bootstrap";
 import "./contact.css";
-import simpson from "./simpson.JPG"
+import active from "./active.png"
 
 export default function Contact(){
     const form_Main=
@@ -42,7 +42,7 @@ export default function Contact(){
             </div>
             
             <div className="second_row">
-                <div className="contact_image"><img src={simpson} alt="IMAGE"/></div>
+                <div className="contact_image"><img src={active} alt="IMAGE"/></div>
                 <div className="form_Main_Box">{form_Main}</div>
             </div>
 

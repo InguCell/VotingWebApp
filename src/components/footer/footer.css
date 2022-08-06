@@ -1,7 +1,7 @@
 .col{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
 }
 
 footer_Title, footer_Title_2{
@@ -18,6 +18,7 @@ footer_Title_2{
 .Main_footer{
     background-color: rgb(140,31,31);
     color: beige;
+    margin-top: auto;
 }
 
 
@@ -26,6 +27,10 @@ footer_Title_2{
     margin-right: 4px;
     width: 30px;
     border: 2px solid black;
+}
+
+.copy{
+    margin-top: 30px;
 }
 
 .central{
@@ -45,7 +50,7 @@ footer_Title_2{
 }
 
 span{
-    font-weight: bold;
+    font-weight: 600;
 }
 
 @media (max-width:1200px) {

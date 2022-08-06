@@ -1,8 +1,10 @@
 import React from "react";
-import "./home.css";
+import "./register.css";
+import regis from "./regis.png"
 import {Form, Container, Button, Nav} from "react-bootstrap";
 
-export default function Home(){
+
+export default function Register(){
     const home_form=
     <Form>
         <Form.Group className="mb-5">
@@ -14,7 +16,13 @@ export default function Home(){
         </Form.Group>
 
         <Form.Group className="mb-5">
-            <Form.Control id="department" type="text" placeholder="Department"/>
+            <Form.Select id="department">
+                <option></option>
+                <option>CSC</option>
+                <option>INT</option>
+                <option>DPH</option>
+                <option>NUR</option>
+            </Form.Select>
         </Form.Group>
 
         <Form.Group className="mb-5">
@@ -37,10 +45,10 @@ export default function Home(){
             <Container>
                 <div className="home_header">
                     <h1>Welcome!!</h1>
-                    <p>Register As Voter On The Voting Platforms To Vote For The Candidate Of Your Choice</p>
+                    <p>Register As Voter On The Voting Platforms To Vote For The <br/> Candidate Of Your Choice</p>
                 </div>
                 <div className="second_row">
-                    <div className="home_image"><img src="#" alt="Home"/></div>
+                    <img class="regis_pic" src={regis} alt="REGISTER"/>
                     <div className="home_form_box">{home_form}</div>
                 </div>
             </Container>

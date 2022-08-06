@@ -22,7 +22,7 @@
 }
 
 #student_mail, #department, #number, #pass, #repass{
-    width:70%;
+    width:100%;
     border-radius: 12px;
     margin-left: auto;
     margin-right: auto;
@@ -48,9 +48,17 @@
     color: rgb(0, 0, 0);
 }
 
-.home_image, .home_form_box{
-    width: 50%;
-    object-fit:cover;
+.home_form_box{
+    width: 40%;
+}
+
+.regis_pic{
+    width: 60%;
+    float: right;
+    height: 600px;
+    object-fit: contain;
+    position: relative;
+    right: -13px;
 }
 
 .home_image img{
@@ -90,9 +98,7 @@
 }
 
 @media (max-width:1000px) {
-    .home_image{
-        float: none;
-    }
+    
     .home_header{
         margin-bottom: 0.9em;
         margin-left: 0;
@@ -122,8 +128,12 @@
 }
 
 @media (max-width:500px) {
-    .home_image, .home_form_box{
+    .home_form_box{
         width: 80%;
+    }
+
+    .regis_pic{
+        display: none;
     }
 }
 
