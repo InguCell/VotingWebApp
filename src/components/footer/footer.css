@@ -14,6 +14,14 @@ footer_Title_2{
     margin-bottom: 6px;
 }
 
+.footer_log{
+    position: relative;
+    width: 50px;
+    height: 40px;
+    float: left;
+    object-fit: contain;
+}
+
 
 .Main_footer{
     background-color: rgb(140,31,31);
@@ -24,21 +32,22 @@ footer_Title_2{
 
 }
 
-
-#logo{
-    display: inline-block;
-    margin-right: 4px;
-    width: 30px;
-    border: 2px solid black;
-}
-
-.copy{
-    margin-top: 30px;
-}
-
 .central{
+    position: relative;
+    left: 50px;
     float: right;
+    top: -40px;
+    margin-bottom: 0;
 }
+
+.central2{
+    position: relative;
+    left: 50px;
+    float: right;
+    top: -40px;
+    margin-bottom: 0;
+}
+
 
 .Container{
     display: flex;

@@ -1,6 +1,7 @@
 import React from "react";
 import {Nav} from 'react-bootstrap';
-import "./footer.css"
+import "./footer.css";
+import footer_logo from "./footer_logo.png"
 export default function Footer(){
     // const footer_Title=(props)=> <h4>{props.children}</h4>;
     // const footer_Title_2=(props)=><h6>{props.children}</h6>;
@@ -11,8 +12,9 @@ export default function Footer(){
             <div className="Container" >
                 <div className="row">
                     <div className="col" >
-                    <footer_Title className="central"><a id="logo"><img href="" alt=""/></a><span>Central University</span></footer_Title>
-                    {/* <footer_Title_2>Cu-Developers</footer_Title_2> */}
+                        <img class="footer_log"src={footer_logo} alt="logo"/>
+                    <footer_Title className="central">Central University</footer_Title>
+                    <footer_Title className="central2">Cu-Developers</footer_Title>
                     <Nav.Link className="copy">Copyright Cu-Developers</Nav.Link>
                     {/* <Nav.Link>Limited All rights reserved</Nav.Link> */}
                     </div>

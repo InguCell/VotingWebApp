@@ -8,6 +8,13 @@
     font-size: 1.4rem;
 }
 
+.footer_log{
+    position: relative;
+    width: 50px;
+    height: 40px;
+    float: left;
+}
+
 .header h1{
     color: rgb(140,31,31);
     font-weight: bold;
