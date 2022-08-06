@@ -7,7 +7,7 @@
 footer_Title, footer_Title_2{
     font-weight: bold;
     font-size: medium;
-    margin-bottom: 5px;
+    margin-bottom: 40px;
 }
 
 footer_Title_2{
@@ -19,6 +19,9 @@ footer_Title_2{
     background-color: rgb(140,31,31);
     color: beige;
     margin-top: auto;
+    position: relative;
+    top:40rem;
+
 }
 
 

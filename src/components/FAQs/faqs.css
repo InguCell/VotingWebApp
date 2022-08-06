@@ -39,3 +39,10 @@
     color: #8c1f1f;
     font-weight: bold;
 }
+
+@media (max-width:500px) {
+    .faqs_pic{
+        display: none;
+    }
+    
+}

@@ -2,8 +2,8 @@ import React from "react";
 import {Nav} from 'react-bootstrap';
 import "./footer.css"
 export default function Footer(){
-    const footer_Title=(props)=> <h4>{props.children}</h4>;
-    const footer_Title_2=(props)=><h6>{props.children}</h6>;
+    // const footer_Title=(props)=> <h4>{props.children}</h4>;
+    // const footer_Title_2=(props)=><h6>{props.children}</h6>;
 
 
     return(
