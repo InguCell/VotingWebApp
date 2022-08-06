@@ -1,26 +1,25 @@
 import React from 'react'
 import "./Part2.css"
-import { Container , Col , Row, Card, Button} from 'react-bootstrap'
-import star from "./picture2.png"
-import secure from "./picture3.png"
-import news from "./picture4.png"
-import vote from "./picture5.png"
+import { Container , Col , Row, Card} from 'react-bootstrap'
+import secure from "./secure.png"
+import news from "./news.png"
+import vote from "./vote.png"
 
 export default function Part2() {
 //container ready
 
 const part2 =  
-<Container fluid className='part2'>
+<div className='cards part2'>
+<Container fluid>
+  
+  <Row>
+        <Col>
+<div className='card-body'>
+<Card className='cards'>
+  <div>
+  <Card.Img variant="top" src={secure} className="img" />
+  </div>
 
-
-<Row>
-        <Col xs>
-<div className='card1-pos'>
-<Card className='cards cards1'>
-      <Card.Img variant="top" src={star} className="star" />
-      <div>
-           <img src={secure} className='secure'></img>
-      </div>
       <Card.Body class="card-sub">
         <Card.Title><h3 class="card-heading">
         Secured System
@@ -33,62 +32,64 @@ safe and secured
         </Card.Text>
       </Card.Body>
     </Card>
-    
-</div>
-       
+    </div>    
         </Col>
-        <Col xs={{ order: 12 }}>
 
-            <div className='card2-pos'>
-            <Card className='cards cards2'>
-      <Card.Img variant="top" src={star} className="star" />
-      <div>
-           <img src={news} className='news secure'></img>
-      </div>
+        <Col>
+<div className='card-body'>
+<Card className='cards'>
+  <div>
+  <Card.Img variant="top" src={news} className="img" />
+  </div>
+
       <Card.Body class="card-sub">
         <Card.Title><h3 class="card-heading">
-        Vote Online
+        Secured System
             </h3></Card.Title>
         <Card.Text><p class="card-sub-heading">
-        With just a few clicks you can vote for your preferred candidates
+        With our system your data is 
+safe and secured
         </p>
       
         </Card.Text>
       </Card.Body>
     </Card>
-            </div>
-
-        
+    </div>    
         </Col>
-        
-        <Col xs={{ order: 1 }}>
 
-            <div className='card3-pos'>
-            <Card className='cards cards3'>
-      <Card.Img variant="top" src={star} className="star star-alt3" />
-      <div>
-           <img src={vote} className='vote secure'></img>
-      </div>
+
+        <Col>
+<div className='card-body'>
+<Card className='cards'>
+  <div>
+  <Card.Img variant="top" src={vote} className="img" />
+  </div>
+
       <Card.Body class="card-sub">
         <Card.Title><h3 class="card-heading">
-        Real Time Results
+        Secured System
             </h3></Card.Title>
-        <Card.Text><p class="card-sub-heading sub-alt3">
-        View real time voting results and scores for each candidates
+        <Card.Text><p class="card-sub-heading">
+        With our system your data is 
+safe and secured
         </p>
       
         </Card.Text>
       </Card.Body>
     </Card>
-
-            </div>
+    </div>    
+        </Col>
 
         
-        </Col>
+        
       </Row>
       
-  </Container>
 
+
+  
+ 
+</Container>
+</div>
  
   return (
     <div>

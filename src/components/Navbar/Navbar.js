@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 
 export default function () {
    
-//const logins = <button>Login</button>
 
 const buttons = {
   login: <button className='login-button'>Login</button>,

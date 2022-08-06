@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import  Footer from "./components/Footer/Footer";
 import Contact from "./components/contact-page/contact";
 import Landing from  "./components/routes/landing-page/LandingPage";
-import { BrowserRouter, Outlet, Route, Router, Routes} from 'react-router-dom';
+import { BrowserRouter, Outlet, Route, Routes} from 'react-router-dom';
 
 
 function App() {
@@ -16,9 +16,8 @@ function App() {
 <Navbar />
 
 <Routes>
-  <Route path="/" element={ <Landing /> }></Route>
-  <Route path="/contact" element={ <Contact/> } />
-  
+  <Route exact path="/" element={ <Landing /> }></Route>
+  <Route path="/contact" element={ <Contact/> } /> 
 </Routes>
 <Outlet />
 
