@@ -44,5 +44,17 @@
     .faqs_pic{
         display: none;
     }
+
+    .firt_row{
+        margin-bottom: 10px;
+    }
+
+    .firt_row h2{
+        font-size: 40px;
+    }
+
+    .sec_row{
+        margin-top: 30px;
+    }
     
 }
