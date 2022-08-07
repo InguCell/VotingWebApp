@@ -13,7 +13,8 @@ export default function Part2() {
   <div className='heading'>
     <Container fluid >
    <div className='top-heading'>
-    Our Features
+    Our Features 
+    <br /><br /><br />
     <span className='sub-top-heading'>
    A secured system that provides an easy way to vote at your comfort
    </span>
