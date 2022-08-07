@@ -2,9 +2,13 @@
     padding-bottom: 7rem;
     width:100%;
     color: white;
-    margin-top: 2rem;
+    margin-top:2rem;
     position: relative;
     top:-8rem;
+}
+
+.whole{
+    margin-top: 2rem;
 }
 
 .img{

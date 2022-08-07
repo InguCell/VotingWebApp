@@ -118,7 +118,7 @@ score for each canditates
 
  
   return (
-    <div>
+    <div className='whole'>
     
     {features}
         {part2}
