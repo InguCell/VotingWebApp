@@ -6,6 +6,7 @@ import active from "./active.png"
 export default function Contact(){
     const form_Main=
     <Form>
+            <h4 class="contact_us">contact us</h4>
             <Form.Group className="mb-3">
                 <Form.Label className="mb-0">Name</Form.Label>
                 <Form.Control id="name" type="text" required/>
