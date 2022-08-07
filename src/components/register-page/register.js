@@ -7,6 +7,7 @@ import {Form, Container, Button, Nav} from "react-bootstrap";
 export default function Register(){
     const home_form=
     <Form>
+        <h4 className="lbl">Register here</h4>
         <Form.Group className="mb-5">
             <Form.Control id="number" type="text" placeholder="Enter your student id number"/>
         </Form.Group>
@@ -19,9 +20,16 @@ export default function Register(){
             <Form.Select id="department">
                 <option></option>
                 <option>CSC</option>
-                <option>INT</option>
-                <option>DPH</option>
-                <option>NUR</option>
+                <option>Arts Department</option>
+                <option>Arts And Social Department(Miotso)</option>
+                <option>ATHE</option>
+                <option>Central Business School(Miotso)</option>
+                <option>School Of Architecture And Design</option>
+                <option>School Of Medicine And Health(Miotso)</option>
+                <option>School Of Pharmacy</option>
+                <option>Theology And Mission(Miotso)</option>
+                <option>Vision & Life</option>
+                <option>School Of Engineering And Technology</option>
             </Form.Select>
         </Form.Group>
 

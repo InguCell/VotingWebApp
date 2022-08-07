@@ -43,7 +43,7 @@ export default function Contact(){
             
             <div className="second_row">
 
-                <div className="contact_image"><img src={active} alt="IMAGE"/></div>
+                <img class="contact_img"src={active} alt="IMAGE"/>
                 <div className="form_Main_Box">{form_Main}</div>
             </div>
 

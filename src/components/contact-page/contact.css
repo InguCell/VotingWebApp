@@ -8,25 +8,23 @@
     font-size: 1.4rem;
 }
 
-.footer_log{
-    position: relative;
-    width: 50px;
-    height: 40px;
-    float: left;
-}
-
 .header h1{
     color: rgb(140,31,31);
     font-weight: bold;
     font-size: 3rem;
 }
-
-#name, #mail, #dept{
+#name, #mail, #dept, input[type="textarea"]{
     width:70%;
     height: 50px;
     border-radius: 12px;
     border:2px solid rgb(140,31,31);
     transition: all 0.3s;
+}
+
+input[type="textarea"]{
+    height: 200px;
+    margin-bottom: 30px;
+    outline: none;
 }
 
 #form_button{
@@ -43,31 +41,17 @@
     color: rgb(0, 0, 0);
 }
 
-.form_Main_Box, .contact_image{
+.form_Main_Box{
     width: 50%;
-    object-fit:cover;
 }
 
-.contact_image img{
-    width: 100%;
-    object-fit:cover;
-    height: 100%;
-}
-.contact_image{
-    height: 470px;
-    margin-top: 15px;
+.contact_img{
+    position: relative;
+    top: auto;
+    object-fit: contain;
+    width: 50%;
+    height: 560px;
     float: right;
-}
-
-input[type="textarea"]{
-    width: 70%;
-    height: 200px;
-    border-radius: 12px;
-    border: 2px solid rgb(140,31,31);
-    transition: all 0.3s;
-    margin-bottom: 30px;
-    transition: all 0.3s;
-    outline: none;
 }
 
 input[type="textarea"]:focus, #name:focus, #mail:focus, #dept:focus{
@@ -76,67 +60,112 @@ input[type="textarea"]:focus, #name:focus, #mail:focus, #dept:focus{
     box-shadow: 0 0 13px rgb(140,31,31);
 }
 
-@media (max-width:1000px) {
-    .contact_image{
+@media (max-width:1024px) {
+    .contact_img{
         float: none;
+        height: 525px;
+        top: -55px;
+        width: 80%;
+    }
+    .header{
+        font-size: 0.99em;
+    } 
+    .header h1{
+        font-size: 2.6rem;
     }
     .second_row{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 0;
+    }
+    #name, #mail, #dept,input[type="textarea"],#form_button {
+        width: 85%;
+        margin-bottom: 30px;
+    }
+    .form_Main_Box{
+        position: relative;
+        top: -20px;
+    }
+}
+
+@media (max-width:991px) {
+    #name, #mail, #dept,input[type="textarea"],#form_button {
+        width: 95%;
+    }
+}
+
+@media (max-width:768px) {
+    .form_Main_Box {
+        width: 65%;
     }
     #name, #mail, #dept,input[type="textarea"],#form_button {
         width: 100%;
     }
-
-    .form_Main_Box{
-        margin-top: 50px;
-    }
-    .header{
-        font-size: 0.8em;
-    } 
-}
-
-@media (max-width:768px) {
-    .contact_image, .form_Main_Box{
-        width: 70%;
+    .contact_img{
+        width: 95%;
     }
     .header h1{
-        font-size: 2.8rem;
+        font-size: 2.3rem;
     }
 }
 
-@media (max-width:500px) {
-    .form_Main_Box{
+@media (max-width:540px) {
+    .form_Main_Box {
+        width: 75%;
+    }
+    .contact_img{
+        height: auto;
+        top: -35px;
+    }
+    .header h1{
+        font-size: 2.3rem;
+    }
+    #name, #mail, #dept,#form_button {
+        height: 48px;
+    }
+    .input[type="textarea"]{
+        height: 450px;
+    }
+}
+
+@media (max-width:500px){
+    .form_Main_Box {
         width: 80%;
     }
-    .header{
-        font-size: 0.8em;
-        margin-bottom: 0px
-    }
-
     .header h1{
-        font-size: 30px;
+        font-size: 2.1rem;
     }
+}
 
-    .header >p{
-        margin-bottom: 0;
+@media (max-width:440px){
+    .form_Main_Box {
+        width: 89%;
     }
+    .header h1{
+        font-size: 2.0rem;
+    }
+}
 
-    .contact_image{
-        display: none;
+@media (max-width:412px){
+    .form_Main_Box {
+        width: 95%;
     }
+    .contact_img{
+        width: 100%;
+    }
+}
+
+@media (max-width:375px){
     .contact_body{
-        margin-right: 30px;
-        margin-left: 30px;
+        margin:34px;
+    }
+    .contact_img{
+        width: 100%;
+        top: -30px;
     }
 }
 
-@media (max-width:360px) {
-    .contact_image, .form_Main_Box{
-        width: 90%;
-    }
-}
 
 
 
