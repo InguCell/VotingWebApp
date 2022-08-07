@@ -12,7 +12,7 @@ export default function
     <Container fluid >
    <div className='top-heading'>
     Monitoring the voting process
-    <span className='sub-top-heading'>
+    <br /> <br /><span className='sub-top-heading'>
    Track the number of votes and voter with our real-time counter
    </span>
    </div>
