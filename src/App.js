@@ -32,7 +32,7 @@ function App() {
 <Outlet />
 
 
-{/* <Footer/> */}
+<Footer/>
 </BrowserRouter>
 
 
