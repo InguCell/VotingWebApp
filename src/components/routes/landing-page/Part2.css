@@ -2,12 +2,20 @@
     padding-bottom: 7rem;
     width:100%;
     color: white;
+    margin-top:2rem;
+    position: relative;
+    top:-8rem;
+}
+
+.whole{
+    margin-top: 2rem;
 }
 
 .img{
     width: 60%;
     height: auto;
     background-color:#8c2020 ;
+    margin-left: 2.1rem;
 }
 
 .cards{
@@ -27,19 +35,23 @@
 .card-heading{
  padding-top: 2rem;
  width: 100%;
- 
+ text-align: center;
 }
 
 .card-sub-heading{
   padding-top: 1rem;
   font-size: 0.8rem;
+  width: 100%;
+  text-align: center;
 }
 
 .heading{
     width: 100%;
     background-color: #8c2020;
     position: relative;
-    top:2rem;
+    top:-2.2rem;
+    z-index: 1;
+    line-height: 3.2rem;
 }
 
 .top-heading{
@@ -48,8 +60,10 @@
     text-align: center;
     font-weight: bold;
     padding-top: 7rem;
+    padding-bottom: 2rem;
     color: white;
-    font-size: 1.7rem;   
+    font-size: 2rem;   
+    margin-left: 1rem;
 
 }
 
@@ -175,6 +189,10 @@
 }
 
 @media screen and (min-width: 1300px) and (orientation: portrait){
+    .heading{
+        top:-5.4rem;
+        z-index: 1;
+    }
     .card-body{
     width: 90%;
     margin-left: 1rem;
@@ -217,5 +235,10 @@
     font-size: 1rem;
   }
 
+
+  .heading{
+    top:-5.4rem;
+    z-index: 1;
+}
 }
 
