@@ -6,6 +6,7 @@ import active from "./active.png"
 export default function Contact(){
     const form_Main=
     <Form>
+            <h4 class="contact_us">contact us</h4>
             <Form.Group className="mb-3">
                 <Form.Label className="mb-0">Name</Form.Label>
                 <Form.Control id="name" type="text" required/>
@@ -43,7 +44,7 @@ export default function Contact(){
             
             <div className="second_row">
 
-                <div className="contact_image"><img src={active} alt="IMAGE"/></div>
+                <img class="contact_img"src={active} alt="IMAGE"/>
                 <div className="form_Main_Box">{form_Main}</div>
             </div>
 

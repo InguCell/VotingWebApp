@@ -1,5 +1,14 @@
-/* .home_body{
+.home_body{
     margin: 40px;
+}
+
+.lbl{
+    font-size: 30px;
+    color: rgb(140,31,31);
+    display: none;
+    font-weight:700;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .home_header{
@@ -97,7 +106,7 @@
     }  
 }
 
-@media (max-width:1000px) {
+@media (max-width:1024px) {
     
     .home_header{
         margin-bottom: 0.9em;
@@ -112,34 +121,117 @@
     #student_mail, #department, #number, #pass, #repass,#sign_in_button {
         width: 100%;
     }
+    .regis_pic{
+        width: 65%;
+    }
 
     .home_form_box{
         margin-top: 50px;
     }
     .home_header{
-        font-size: 0.8em;
-    }   
+        font-size: 0.99em;
+    } 
+    .lbl{
+        display: block;
+    }  
+}
+
+@media (max-width:991px) {
+    .regis_pic{
+        width: 76%;
+    }
+    .home_form_box{
+        top: -15px;
+        width: 52%;
+        margin-top: 35px;
+    }
 }
 
 @media (max-width:768px) {
-    .home_image, .home_form_box{
-        width: 70%;
+    .home_form_box {
+        width: 65%;
+    }
+    .regis_pic{
+        height: 500px;
+        width: 83%;
     }
 }
 
-@media (max-width:500px) {
-    .home_form_box{
+@media (max-width:540px) {
+    .home_form_box {
+        width: 75%;
+    }
+    .regis_pic{
+        height: 400px;
+        width: 91%;
+    }
+    .home_header h1 {
+        font-size: 63px;
+    }
+    .home_header {
+        font-size: 0.95em;
+    }
+}
+
+@media(max-width:500px) {
+    .home_form_box {
         width: 80%;
     }
-
-    .regis_pic{
+    .home_header p br{
         display: none;
     }
+    .home_header h1 {
+        font-size: 55px;
+    }   
 }
 
-@media (max-width:360px) {
-    .home_image, .home_form_box{
-        width: 90%;
+@media (max-width:440px) {
+    .home_form_box {
+        width: 92%;
+    }
+    .regis_pic{
+        height: 315px;
+        width: 95%;
+    }
+    .home_header h1 {
+        font-size: 52px;
+    } 
+}
+
+@media (max-width:440px) {
+    .home_form_box {
+        width: 95%;
+    }
+    .regis_pic{
+        width: 100%;
+    }
+    .home_header h1 {
+        font-size: 50px;
+    } 
+    .lbl {
+        font-size: 25px;
     }
 }
- */
+
+@media (max-width:375px) {
+    .home_form_box {
+        width: 100%;
+    }  
+    .home_body{
+        margin-right: 25px;
+        margin-left: 25px;
+    } 
+    .regis_pic{
+        width: 120%;
+    } 
+    .home_header h1 {
+        font-size: 45px;
+    }
+    .home_header {
+        font-size: 0.9em;
+    }
+    .lbl {
+        font-size: 21px;
+    }
+}
+
