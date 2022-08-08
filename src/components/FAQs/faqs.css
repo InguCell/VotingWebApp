@@ -21,7 +21,6 @@
     object-fit: contain;
     height: 500px;
     top: -70px;
-    bottom: -60px;
 }
 
 .sec_row{
@@ -40,23 +39,36 @@
     font-weight: bold;
 }
 
+@media (max-width:1024px){
+    .faqs_pic{
+        top: -35px;
+    }
+    .sec_row{
+        position: relative;
+        top: 45px;
+    }
+
+}
+
 @media (max-width:768px) {
     .firt_row h2{
         font-size: 35px;
     }
     .faqs_pic{
         width: 90%;
-        top: -90px;
     }
     .firt_row{
         margin-bottom: -170px;
+    }
+    .sec_row{
+        position: relative;
+        top: 60px;
     }
 }
 
 @media(max-width:540px) {
     .faqs_pic{
         width: 100%;
-        top: -95px;
     }
 }
 
@@ -79,19 +91,17 @@
 
 @media(max-width:440px) {
     .faqs_pic{
-        width: 106%;
-        height: 400px;
-    }
-}
-
-@media(max-width:440px) {
-    .faqs_pic{
-        width: 110%;
-        top: -85px;
+        width: 112%;
+        top: -25px;
         height: 360px;
     }
 
+    .sec_row{
+        position: relative;
+        top: 100px;
+    }
+
     .main{
-        margin: 40px 20px;
+        margin: 40px 15px;
     }
 }

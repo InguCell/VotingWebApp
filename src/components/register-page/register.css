@@ -123,10 +123,13 @@
     }
     .regis_pic{
         width: 65%;
+        right: 0px;
+        top: 60px;
     }
 
     .home_form_box{
-        margin-top: 50px;
+        position: relative;
+        top: 110px;
     }
     .home_header{
         font-size: 0.99em;
@@ -141,18 +144,17 @@
         width: 76%;
     }
     .home_form_box{
-        top: -15px;
         width: 52%;
-        margin-top: 35px;
     }
 }
 
 @media (max-width:768px) {
     .home_form_box {
-        width: 65%;
+        width: 57%;
+        top: 130px;
     }
     .regis_pic{
-        height: 500px;
+        height: 515px;
         width: 83%;
     }
 }
@@ -166,7 +168,7 @@
         width: 91%;
     }
     .home_header h1 {
-        font-size: 63px;
+        font-size: 59px;
     }
     .home_header {
         font-size: 0.95em;
@@ -187,22 +189,10 @@
 
 @media (max-width:440px) {
     .home_form_box {
-        width: 92%;
+        width: 95%;
     }
     .regis_pic{
         height: 315px;
-        width: 95%;
-    }
-    .home_header h1 {
-        font-size: 52px;
-    } 
-}
-
-@media (max-width:440px) {
-    .home_form_box {
-        width: 95%;
-    }
-    .regis_pic{
         width: 100%;
     }
     .home_header h1 {

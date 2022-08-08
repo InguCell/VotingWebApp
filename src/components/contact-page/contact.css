@@ -73,7 +73,7 @@ input[type="textarea"]:focus, #name:focus, #mail:focus, #dept:focus{
     .contact_img{
         float: none;
         height: 525px;
-        top: -55px;
+        top: 0px;
         width: 80%;
     }
     .header{
@@ -94,7 +94,7 @@ input[type="textarea"]:focus, #name:focus, #mail:focus, #dept:focus{
     }
     .form_Main_Box{
         position: relative;
-        top: -20px;
+        top: 60px;
     }
     .contact_us{
         display: block;
@@ -109,7 +109,7 @@ input[type="textarea"]:focus, #name:focus, #mail:focus, #dept:focus{
 
 @media (max-width:768px) {
     .form_Main_Box {
-        width: 65%;
+        width: 54%;
     }
     #name, #mail, #dept,input[type="textarea"],#form_button {
         width: 100%;
@@ -128,7 +128,6 @@ input[type="textarea"]:focus, #name:focus, #mail:focus, #dept:focus{
     }
     .contact_img{
         height: auto;
-        top: -35px;
     }
     .header h1{
         font-size: 2.3rem;
@@ -160,6 +159,9 @@ input[type="textarea"]:focus, #name:focus, #mail:focus, #dept:focus{
     .contact_us{
         font-size: 25px;
     }
+    .contact_img{
+        width: 100%;
+    }
 }
 
 @media (max-width:412px){
@@ -167,20 +169,29 @@ input[type="textarea"]:focus, #name:focus, #mail:focus, #dept:focus{
         width: 95%;
     }
     .contact_img{
-        width: 100%;
+        width: 106%;
     }
 }
 
 @media (max-width:375px){
     .contact_body{
-        margin:34px;
+        margin:30px;
     }
     .contact_img{
-        width: 100%;
-        top: -30px;
+        width: 120%;
+        top: 30px;
     }
     .contact_us{
         font-size: 21px;
+    }
+    .header h1{
+        font-size: 1.7rem;
+    }
+    .form_Main_Box{
+        top: 80px;
+    }
+    .header {
+        font-size: 0.93em;
     }
 }
 
