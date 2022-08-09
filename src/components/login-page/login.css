@@ -1,0 +1,218 @@
+.login_main{
+    margin: 40px;
+}
+.login_header h1{
+    color: rgb(140,31,31);
+    font-weight: bold;
+    font-size: 3.3rem;
+    margin-top: 85px;
+    margin-bottom: 35px;
+}
+#st_group{
+    margin-bottom: 50px;
+}
+#login_group{
+    margin-bottom: 60px;
+}
+
+.pic_col{
+    display: inline-block;
+    width: 50%;
+}
+
+.pic_col p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.login_pic{
+    width: 96%;
+    height: 446px;
+    object-fit: contain;
+}
+
+.form_col{
+    display: inline-block;
+    width: 34%;
+    float: right;
+}
+.sign_in{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: rgb(140,31,31);
+    display: none;
+    font-weight:700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.stNo,.login_pass,#sign_button{
+    height: 49px;
+    width: 100%;
+    border-radius: 12px;
+    border:2px solid rgb(140,31,31);
+    transition: all 0.3s;
+}
+
+#sign_button{
+    border:none;
+    background:rgb(140,31,31);
+}
+
+.forgot_pass{
+    float: right;
+    display: inline-block;
+    position: relative;
+    color: rgb(140,31,31);
+    font-weight: 600;
+    top: -26px;
+}
+.forgot_pass:hover{
+    text-decoration: underline;
+}
+#check{
+    box-shadow: none;
+    border: 1.5px solid rgb(140,31,31);
+}
+
+#check:checked{
+    background-color: rgb(140,31,31);
+    border: none;
+    box-shadow: 0 0 5px rgb(140,31,31) ;
+}
+
+#sign_button:hover{
+    transition: all 0.3s;
+    background-color: rgb(177, 145, 145);
+    color: rgb(0, 0, 0);
+}
+#sign_button:focus{
+    box-shadow: 0 0 1px rgb(140,31,31);
+    color: aliceblue;
+    background-color: rgb(56, 6, 6);
+}
+#log_reg_link{
+    text-decoration: none;
+    color: rgb(140,31,31);
+    font-weight: 600;
+}
+
+#log_reg_link:hover{
+    text-decoration: underline;
+}
+
+.login_pass:focus, .stNo:focus{
+    transition: all 0.3s;
+    border: 0 none;
+    box-shadow: 0 0 13px rgb(140,31,31);
+}
+
+@media(max-width:1024px) {
+    .form_col{
+        width: 33%;
+    }
+}
+@media(max-width:991px) {
+    .form_col{
+        width: 43%;
+    }
+}
+
+@media(max-width:768px){
+    .pic_col {
+        width: 65%;
+    }
+    .pic_col p br{
+        display: none;
+    }
+    .pic_col p{
+        text-align: center;
+        margin: 50px auto;
+        font-size: 18px;
+    }
+    .pic_col,.form_col{
+        display: block;
+        float: none;
+        margin: auto;
+    }
+    .form_col{
+        width: 50%;
+        margin: 50px auto;
+    }
+    .login_header h1{
+        font-size: 3.0rem;
+    }
+    .sign_in{
+        display: block;
+    }  
+}
+
+@media(max-width:540px) {
+    .login_header h1{
+        font-size: 2.7rem;
+    }
+    .form_col{
+        width: 75%;
+    }
+    .login_pic{
+        width: 100%;
+    }
+    .pic_col {
+        width: 80%;
+    }
+    .pic_col p{
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:440px){
+    .form_col{
+        width: 89%;
+    }
+    .pic_col {
+        width: 95%;
+    }
+    .login_header h1 {
+        font-size: 2.5rem;
+    }
+    .sign_in{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:412px) {
+    .login_main {
+        margin: auto 30px;
+    }
+    .login_header h1 {
+        font-size: 2.4rem;
+    }
+    .pic_col {
+        width: 100%;
+    }
+    .form_col {
+        width: 95%;
+    }
+}
+
+@media(max-width:375px) {
+    .login_header h1 {
+        font-size: 2.3rem;
+    }
+    .form_col {
+        width: 100%;
+    }
+    .login_pic{
+        height: 360px;
+    }
+    .sign_in{
+        font-size: 21px;
+    }
+    #check,.forgot_pass{
+        font-size: 14px;
+    }
+   
+}
+

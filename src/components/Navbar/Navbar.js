@@ -8,7 +8,7 @@ export default function () {
    
 
 const buttons = {
-  login: <button className='login-button'>Login</button>,
+  login: <button className='login-button'><Link to="/login" style={{textDecoration:"none", color:"rgb(112,112,113)"}}>Login</Link></button>,
   register: <button className='register-button'><Link to="/register" style={{textDecoration:"none", color:"white"}}>Register as a voter</Link></button>
 }
   

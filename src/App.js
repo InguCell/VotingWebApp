@@ -7,6 +7,7 @@ import Landingpage from "./components/routes/landing-page/LandingPage";
 import Register from "./components/register-page/register";
 import FAQ from "./components/FAQs/faqs";
 import { BrowserRouter, Outlet, Route, Routes} from 'react-router-dom';
+import Login from "./components/login-page/login";
 
  import Landing from  "./components/routes/landing-page/LandingPage";
 // import { BrowserRouter, Outlet, Route, Routes} from 'react-router-dom';
@@ -26,6 +27,7 @@ function App() {
   <Route path="/contact" element={ <Contact/> } />
   <Route path="/register" element={ <Register/> } />
   <Route path="/FAQ" element={ <FAQ/> } />
+  <Route path="/Login" element={ <Login/> } />
   <Route exact path="/" element={ <Landing /> }></Route>
   <Route path="/contact" element={ <Contact/> } /> 
 </Routes>
