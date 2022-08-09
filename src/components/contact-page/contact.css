@@ -41,13 +41,12 @@ input[type="textarea"]{
     height: 50px;
     border:none;
     background:rgb(140,31,31);
-    transition: all 0.3s;
 }
 
 #form_button:hover{
-    transition: all 0.3s;
-    background-color: rgb(177, 145, 145);
-    color: rgb(0, 0, 0);
+    background-color:white;
+    color: black;
+    border: 0.2rem solid #8c1f1f;
 }
 #form_button:focus{
     box-shadow: 0 0 1px rgb(140,31,31);

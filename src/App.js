@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer.js";
+import Footer from "./components/footer/footer.js";
 import Contact from "./components/contact-page/contact";
 import Landingpage from "./components/routes/landing-page/LandingPage";
 import Register from "./components/register-page/register";
