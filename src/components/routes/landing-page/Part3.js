@@ -1,11 +1,26 @@
 import React from 'react'
 import { Container, Row, Col , Card } from 'react-bootstrap'
-import secure from "./secure.png"
-import news from "./news.png"
-import vote from "./vote.png"
-export default function 
+import 'react-circular-progressbar/dist/styles.css';
+import ProgessBars from './progressbar1'
+import Progressbar2 from './progressbar2';
+import Progressbar3 from './progressbar3';
 
-() {
+
+export default function () {
+
+
+const progressbar = (bars) =>
+<div style={{width:200, height:200}}>
+  {bars}
+</div>
+
+const bars={
+    one: progressbar(<ProgessBars />),
+    two: progressbar(<Progressbar2 />),
+    three:progressbar(<Progressbar3 />)
+
+}
+
   const features = 
   
   <div className='heading'>
@@ -22,9 +37,9 @@ export default function
 
 
 const part2 = 
-<section>
+<section >
 
-<div className='cards part2'>
+<div className='cards part2' >
 
   
 
@@ -35,16 +50,15 @@ const part2 =
 <div className='card-body'>
 <Card className='cards'>
   <div>
-  <Card.Img variant="top" src={secure} className="img" />
+  {bars.one}
   </div>
 
       <Card.Body class="card-sub">
         <Card.Title><h3 class="card-heading">
-        Secured System
+        Number of Students Registered
             </h3></Card.Title>
         <Card.Text><p class="card-sub-heading">
-        With our system your data is 
-safe and secured
+        
         </p>
       
         </Card.Text>
@@ -57,16 +71,15 @@ safe and secured
 <div className='card-body body2'>
 <Card className='cards'>
   <div>
-  <Card.Img variant="top" src={news} className="img" />
+  {bars.two}
   </div>
 
       <Card.Body class="card-sub">
         <Card.Title><h3 class="card-heading">
-        Vote Online
+        Total Number of Votes
             </h3></Card.Title>
         <Card.Text><p class="card-sub-heading">
-        With just a few clicks,you can 
-vote for your preferred canditates
+      
 
         </p>
       
@@ -81,16 +94,14 @@ vote for your preferred canditates
 <div className='card-body body3'>
 <Card className='cards'>
   <div>
-  <Card.Img variant="top" src={vote} className="img" />
+  {bars.three}
   </div>
 
       <Card.Body class="card-sub">
         <Card.Title><h3 class="card-heading">
-        Real Time Results
+        Number of Registered Candidates
             </h3></Card.Title>
         <Card.Text><p class="card-sub-heading">
-        View real time voting results and 
-score for each canditates
         </p>
       
         </Card.Text>
@@ -117,9 +128,13 @@ score for each canditates
  
   return (
     <div>
+
+     
     
-    {features}
+   
         {part2}
+
+
     </div>
   )
 }
