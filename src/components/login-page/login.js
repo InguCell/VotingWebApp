@@ -14,7 +14,7 @@ export default function Login(){
         <Form.Group id="login_group">
             <Form.Control className="login_pass" type="password" placeholder="Password"/>
             <Form.Check id="check" type="checkbox" label="Remember me"/>
-            <Nav.Link className="forgot_pass">Forgot Password?</Nav.Link>
+            <Nav.Link><Link  to="/forgot" className="forgot_pass">Forgot Password?</Link></Nav.Link>
         </Form.Group>
         <Form.Group >
             <Button id="sign_button">Sign In</Button>

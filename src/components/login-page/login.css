@@ -61,6 +61,7 @@
 }
 
 .forgot_pass{
+    text-decoration: none;
     float: right;
     display: inline-block;
     position: relative;
@@ -70,6 +71,7 @@
 }
 .forgot_pass:hover{
     text-decoration: underline;
+    color: rgb(140,31,31);
 }
 #check{
     box-shadow: none;
@@ -210,8 +212,9 @@
     .sign_in{
         font-size: 21px;
     }
-    #check,.forgot_pass{
-        font-size: 14px;
+    .forgot_pass, label{
+        font-size: 13px;
+        font-weight: 500;
     }
    
 }

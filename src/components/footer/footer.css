@@ -32,9 +32,10 @@ footer_Title{
 }
 
 .central, .central2{
+    display: inline-block;
     position: relative;
     left: 50px;
-    float: right;
+    width: 161px;
     top: -43px;
     margin-bottom: 0;
 }

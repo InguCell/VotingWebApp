@@ -23,8 +23,9 @@ const buttons = {
 <Nav.Link href="#features" className='items' style={{marginLeft:"3.1rem", textDecoration:"none"}}>
 
 Home</Nav.Link>
-</Link>          
+</Link>  <Link to="/about" style={{textDecoration:"none"}}>
         <Nav.Link href="#pricing"  className='items' style={{marginLeft:"3.1rem", textDecoration:"none"}}>About</Nav.Link>
+        </Link> 
         <Link to="/faq" style={{textDecoration:"none"}}>
         <Nav.Link href="#pricing" className='items' style={{marginLeft:"3.1rem"}}>FAQ</Nav.Link>
         </Link>
