@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/VotingWebApp/static/css/main.bbdef7e3.css",
-    "main.js": "/VotingWebApp/static/js/main.66b07534.js",
+    "main.css": "/VotingWebApp/static/css/main.6d4f21c7.css",
+    "main.js": "/VotingWebApp/static/js/main.0dc41634.js",
     "static/media/picture1.png": "/VotingWebApp/static/media/picture1.413aa2bae3cc3c0d9bff.png",
     "static/media/FAQs.png": "/VotingWebApp/static/media/FAQs.3daa9ce28b8b661bf67c.png",
-    "static/media/forgot-pic.png": "/VotingWebApp/static/media/forgot-pic.7a050d933146e44fde83.png",
     "static/media/regis.png": "/VotingWebApp/static/media/regis.981e850cffa140c87b44.png",
     "static/media/active.png": "/VotingWebApp/static/media/active.382929d7eb3399236cf0.png",
     "static/media/login.png": "/VotingWebApp/static/media/login.6e4bb00e725464908db9.png",
-    "static/media/about-us.png": "/VotingWebApp/static/media/about-us.68ddda4ea7f1178d9769.png",
     "static/media/central-logo.png": "/VotingWebApp/static/media/central-logo.1570349d369ea0cf2650.png",
     "index.html": "/VotingWebApp/index.html",
-    "main.bbdef7e3.css.map": "/VotingWebApp/static/css/main.bbdef7e3.css.map",
-    "main.66b07534.js.map": "/VotingWebApp/static/js/main.66b07534.js.map"
+    "main.6d4f21c7.css.map": "/VotingWebApp/static/css/main.6d4f21c7.css.map",
+    "main.0dc41634.js.map": "/VotingWebApp/static/js/main.0dc41634.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbdef7e3.css",
-    "static/js/main.66b07534.js"
+    "static/css/main.6d4f21c7.css",
+    "static/js/main.0dc41634.js"
   ]
 }
