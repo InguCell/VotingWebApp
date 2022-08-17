@@ -9,8 +9,9 @@
 }
 
 footer_Title{
+    width:10rem;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 10px;
 }
 
@@ -64,12 +65,14 @@ span{
     grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
     grid-row-gap: 60px;
     }   
+
 }
 
 @media (max-width:740px) {
     .row{
     grid-row-gap: 70px;
     }   
+
 }
 
 @media(max-width:412px) {

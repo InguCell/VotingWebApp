@@ -4,13 +4,14 @@ import 'react-circular-progressbar/dist/styles.css';
 import ProgessBars from './progressbar1'
 import Progressbar2 from './progressbar2';
 import Progressbar3 from './progressbar3';
+import "./Part3.css"
 
 
 export default function () {
 
 
 const progressbar = (bars) =>
-<div style={{width:200, height:200}}>
+<div className="bar-sizes">
   {bars}
 </div>
 
@@ -23,9 +24,9 @@ const bars={
 
   const features = 
   
-  <div className='heading'>
+  <div className='heading headingp3'>
     <Container fluid >
-   <div className='top-heading'>
+   <div className='top-heading t-headingp3'>
     Monitoring the voting process
     <br /> <br /><span className='sub-top-heading'>
    Track the number of votes and voter with our real-time counter
@@ -39,7 +40,7 @@ const bars={
 const part2 = 
 <section >
 
-<div className='cards part2' >
+<div className='cards part2 part3' >
 
   
 
@@ -47,14 +48,14 @@ const part2 =
   
   <Row>
         <Col>
-<div className='card-body'>
-<Card className='cards'>
+<div className='card-body card-body3'>
+<Card className='cards cards3'>
   <div>
   {bars.one}
   </div>
 
       <Card.Body class="card-sub">
-        <Card.Title><h3 class="card-heading">
+        <Card.Title><h3 class="card-heading card-headingp3">
         Number of Students Registered
             </h3></Card.Title>
         <Card.Text><p class="card-sub-heading">
@@ -69,13 +70,13 @@ const part2 =
 
         <Col>
 <div className='card-body body2'>
-<Card className='cards'>
-  <div>
+<Card className='cards cards3'>
+  <div className='bar2'>
   {bars.two}
   </div>
 
       <Card.Body class="card-sub">
-        <Card.Title><h3 class="card-heading">
+        <Card.Title><h3 class="card-heading card-headingp3">
         Total Number of Votes
             </h3></Card.Title>
         <Card.Text><p class="card-sub-heading">
@@ -92,13 +93,13 @@ const part2 =
 
         <Col>
 <div className='card-body body3'>
-<Card className='cards'>
-  <div>
+<Card className='cards cards3'>
+  <div className='bar3'>
   {bars.three}
   </div>
 
       <Card.Body class="card-sub">
-        <Card.Title><h3 class="card-heading">
+        <Card.Title><h3 class="card-heading card-headingp3">
         Number of Registered Candidates
             </h3></Card.Title>
         <Card.Text><p class="card-sub-heading">
@@ -129,9 +130,7 @@ const part2 =
   return (
     <div>
 
-     
-    
-   
+     {features}
         {part2}
 
 
