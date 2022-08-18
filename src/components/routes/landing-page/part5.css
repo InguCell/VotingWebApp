@@ -1,0 +1,153 @@
+.part5_main{
+    padding: 40px;
+}
+
+.part5_head{
+    margin: 40px;
+    text-align: center;
+}
+
+.part5_main_head{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(140,31,31);
+}
+
+.part5_steps{
+    display: inline-block;
+    width: 45%;
+    margin: 40px auto;
+}
+
+.part5_steps ul li{
+    list-style: none;
+    margin-bottom: 50px;
+}
+.part5_numb{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(140,31,31);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.step_head{
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(140,31,31);
+}
+
+.part5pic{
+    position: relative;
+    float: right;
+    width: 40%;
+    object-fit: contain;
+    height: 31rem;
+}
+
+.step_head_sub{
+    margin-left: 2rem;
+}
+
+@media (max-width:912px) {
+    .part5_steps .u_list{
+        padding-left: 0rem;
+    }
+    .step_head{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:820px) {
+    .part5_steps .u_list{
+        padding-left: 0rem;
+    }
+    .step_head{
+        font-size: 1.9rem;
+    }
+    .part5_steps{
+        width: 50%;
+        margin: 70px auto;
+    }
+    .part5pic {
+        margin-top: 2rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width:768px) {
+    .part5_main {
+        padding: 20px;
+    }  
+}
+
+@media (max-width:540px) {
+    .set_flex{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    } 
+    .part5_steps {
+        width: 85%;
+        margin: auto 0;
+        display: block;
+    } 
+    .part5pic{
+        position: relative;
+        float: right;
+        width: 80%;
+        object-fit:fill;
+        height: 31rem;
+    }
+    
+}
+
+@media (max-width: 476px){
+    .part5_steps {
+        width: 90%;
+        margin: auto 0;
+        display: block;
+    }
+}
+
+@media (max-width: 428px){
+    .part5_main_head {
+        font-size: 2.5rem;
+    }
+    .part5_steps {
+        width: 100%;
+    }
+    .step_head {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width:390px) {
+    .part5_main_head {
+        font-size: 2.3rem;
+    }
+    .step_head {
+        font-size: 1.6rem;
+    }
+    .part5_numb{
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:375px) {
+    .part5_main_head {
+        font-size: 2.1rem;
+    }
+    .part5pic{
+        width: 100%;
+    }
+}
+
+
+

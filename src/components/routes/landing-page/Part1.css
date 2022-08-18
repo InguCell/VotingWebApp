@@ -1,10 +1,11 @@
 @media screen and (min-width: 0px) and (orientation: portrait){
-    .picture1{
+    .picture1 {
         width: 100%;
         height: 100%;
-        margin-left:0.7rem;
+        margin-left: 0.7rem;
         overflow: hidden;
         position: relative;
+        /* object-fit: contain; */
     }
     
     .part1{
@@ -29,6 +30,7 @@
             width: 60%;
             position: relative;
             left:0rem;
+            display: inline-block;
             font-size: 0.5rem;
             word-spacing: 0.1rem;
         }
@@ -117,6 +119,12 @@
 
 }
 
+@media screen and (min-width: 476px) and (orientation: portrait){
+    .part1{
+        height: 22rem;
+    }
+}
+
 @media screen and (min-width: 540px) and (orientation: portrait){
     
    .picture1{
@@ -182,6 +190,28 @@
          }
          
 }
+/* Hancho did this  */
+@media screen and (min-width: 768px) and (orientation: landscape){
+    .part1{
+        height: 32rem;
+    }
+    .picture1 {
+        width: 96%;
+    }
+    .part1-writing {
+        font-size: 2rem;
+    }
+    .part1-sub {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .landing-buttons-container button {
+        font-size: 0.7rem;
+    }
+    .writing-container{
+        top:-18rem;
+    }
+}
 
 @media screen and (min-width: 820px) and (orientation: portrait){
     
@@ -191,9 +221,29 @@
 
     .part1-sub{
         width: 50%;
+    }      
+}
+
+@media screen and (min-width: 820px)and (orientation:landscape){
+    .writing-container{
+        top: -20rem;
+    }
+    .part1{
+        height: 36rem;
+    }
+}
+@media screen and (min-width: 912px) and (orientation: landscape){
+    
+    .writing-container {
+        position: relative;
+        top: -18rem;
+    }
+    .part1{
+        height: 36rem;
     }
          
 }
+
 
 @media screen and (min-width: 1024px) and (orientation: landscape){
     
@@ -214,7 +264,7 @@
     }
     
     .part1-writing{
-        width: auto;
+          width: auto;
           font-size: 2.5rem;
           font-weight: bold;
           padding-bottom: 1rem;
@@ -230,7 +280,35 @@
             font-size: 0.9rem;
             position: relative;
          }
-         
+
+         .writing-container {
+            display: inline-flex;
+            flex-direction: column;
+        }
+        
+        .part1-writing,.part1-sub {
+            /* width: fit-content; */
+            display: inline-block;
+        }
+        
+}
+@media screen and (min-width: 1366px) and (orientation: landscape){
+    .picture1 {
+        width: 99%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .writing-container {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .part1-writing {
+        display: inline-block;
+        width: fit-content;
+    }
+    .part1-sub {
+        display: inline-block;
+    }
 }
 
 @media screen and (min-width: 1800px) and (orientation: landscape){

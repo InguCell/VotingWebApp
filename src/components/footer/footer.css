@@ -1,4 +1,4 @@
-.col{
+.footer_col{
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -50,7 +50,7 @@ footer_Title{
     padding: 60px 40px;
 }
 
-.row{
+.footer_row{
     display: grid;
    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
    grid-column-gap: 60px;
@@ -61,14 +61,14 @@ span{
 }
 
 @media (max-width:1200px) {
-    .row{
+    .footer_row{
     grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
     grid-row-gap: 60px;
     }   
 }
 
 @media (max-width:740px) {
-    .row{
+    .footer_row{
     grid-row-gap: 70px;
     }   
 }
