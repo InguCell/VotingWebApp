@@ -35,9 +35,9 @@ const part2 =
   
   <Row>
         <Col>
-<div className='card-body part2_cardbody2'>
-<Card className='cards part2_cards1'>
-  <div className="part2_img">
+<div className='card-body'>
+<Card className='cards'>
+  <div>
   <Card.Img variant="top" src={secure} className="img" />
   </div>
 
@@ -58,8 +58,8 @@ safe and secured
 
         <Col>
 <div className='card-body body2'>
-<Card className='cards part2_cards'>
-  <div className="part2_img">
+<Card className='cards'>
+  <div>
   <Card.Img variant="top" src={news} className="img" />
   </div>
 
@@ -81,9 +81,9 @@ vote for your preferred canditates
 
 
         <Col>
-<div className='card-body body3' id='body3'>
+<div className='card-body body3'>
 <Card className='cards'>
-  <div className="part2_img">
+  <div>
   <Card.Img variant="top" src={vote} className="img" />
   </div>
 
