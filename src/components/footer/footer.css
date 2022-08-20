@@ -1,99 +1,239 @@
-.footer_col{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.links,.copy{
-    font-size: 15px;
-}
-
-footer_Title{
-    width:10rem;
-    font-weight: 600;
-    font-size: 12px;
-    margin-bottom: 10px;
-}
-
-.footer_log{
-    position: relative;
-    width: 50px;
-    height: 45px;
-    float: left;
-    object-fit: contain;
-}
-
-.Main_footer{
-    background-color: rgb(140,31,31);
-    color: beige;
-    margin-top: auto;
-    position: relative;
-    top:40rem;
-    text-transform: capitalize;
-}
-
-.central, .central2{
-    display: inline-block;
-    position: relative;
-    left: 50px;
-    width: 161px;
-    top: -43px;
-    margin-bottom: 0;
-}
-
-.central2{
-    top: -48px;
-}
-
-.Container{
-    display: flex;
-    flex-direction: column;
-    padding: 60px 40px;
-}
-
-.footer_row{
-    display: grid;
-   grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
-   grid-column-gap: 60px;
-}
-
-span{
-    font-weight: 600;
-}
-
-@media (max-width:1200px) {
+@media(max-width:1920px){
     .footer_row{
-    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
-    grid-row-gap: 60px;
-    }   
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+        grid-column-gap: 100px;
+    } 
+    span{
+        font-weight: 600;
+    }
+    .footer_col{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .links,.copy{
+        font-size: 25px;
+    }
+        
+    .footer_log{
+        position: relative;
+        width: 50px;
+        height: 45px;
+        float: left;
+        object-fit: contain;
+    }
+    
+    .Main_footer{
+        background-color: rgb(140,31,31);
+        color: beige;
+        margin-top: auto;
+        position: relative;
+        top:40rem;
+        text-transform: capitalize;
+        padding: 40px;
+    }
 
+    .footer_sub{
+        font-size: 1.5em;
+    }
+    
+    .central, .central2{
+        display: inline-block;
+        position: relative;
+        font-size: 1.5em;
+        left: 50px;
+        width: 194px;
+        top: -46px;
+        margin-bottom: 0;
+    }
+    
+    .central2{
+        top: -50px;
+    }
+    
+    .Container{
+        display: flex;
+        flex-direction: column;
+        padding: 60px 40px;
+    }
 }
 
-@media (max-width:740px) {
+@media (max-width:1600px) {
     .footer_row{
-    grid-row-gap: 70px;
+        grid-template-columns: repeat(auto-fill,minmax(350px, 1fr));
+        grid-column-gap: 35px;
+     }
+     .links, .copy{
+        font-size: 22px;
+     }    
+}
+
+@media (max-width:1536px) { 
+    .Main_footer {
+        padding: 15px;
     }   
+}
+
+@media (max-width:1440px) { 
+    .Container{
+        padding: 60px 20px;
+    }  
+    .central, .central2 {
+        font-size: 1.3em;
+    }
+    .footer_row {
+        grid-column-gap: 0px;
+    }
+    .links, .copy {
+        font-size: 21px;
+    }
+}
+
+@media (max-width:1366px) {    
+    .footer_row{
+        display: grid;
+       grid-template-columns: repeat(auto-fill,minmax(325px, 1fr));
+       grid-column-gap: 0px;
+    }  
+    .Container {
+        padding: 60px 10px;
+    }
+}
+
+@media (max-width:1280px) {
+    .footer_row{
+    grid-template-columns: repeat(auto-fill,minmax(310px, 1fr));
+    }   
+    .central, .central2,.footer_sub {
+        font-size: 1.2em;
+    }
+    .links, .copy {
+        font-size: 19px;
+    }
 
 }
 
-@media(max-width:412px) {
+@media (max-width:1024px) {
+    .Container {
+        padding: 60px 0px;
+    }
+    
+    .links, .copy {
+        font-size: 16px;
+    }
+    
+    .Main_footer {
+        padding: 10px;
+    }
+}
+
+/* iPad pro 12.9 */
+@media (max-width:834px) and (orientation:portrait){
+    .footer_row {
+        grid-template-columns: repeat(auto-fill,minmax(410px, 1fr));
+        grid-row-gap: 70px;
+    }
+    .Container {
+        padding: 60px 100px;
+    } 
+    .central, .central2, .footer_sub {
+        font-size: 1.1em;
+    }   
+}
+
+@media (max-width:834px) and (orientation:landscape){
+    .footer_row {
+        grid-template-columns: repeat(auto-fill,minmax(410px, 1fr));
+        grid-row-gap: 70px;
+    }
+
+    .links, .copy {
+        font-size: 18px;
+    }
+    .Container {
+        padding: 60px 100px;
+    }
+    .central, .central2, .footer_sub {
+        font-size: 1.1em;
+    } 
+}
+
+@media(max-width:414px)and (orientation:portrait) {
     .links, .copy{
         font-size: 14px;
     }
-}
-@media(max-width:384px) {
-    .Container{
-        padding-right: 25px;
-        padding-left: 25px;
+    .footer_row {
+        grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
     }
-    .links, .copy{
-        font-size: 14px;
+    .Container {
+        padding: 60px 30px;
     }
 }
 
-@media(max-width:360) {
-    .Container{
-        padding-right: 15px;
-        padding-left: 15px;
+/* iPhone 8+ / 7 / 6S+ iPhone 11 Pro Max / XR */
+@media(max-width:414px)and (orientation:landscape) {
+    .links, .copy{
+        font-size: 14px;
+    }
+    .footer_row {
+        grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    }
+    .Container {
+        padding: 60px 30px;
+    }
+}
+
+/* iPhone 12 Pro / 12 */
+@media(max-width:390px)and (orientation:landscape) {
+    .central, .central2, .footer_sub {
+        font-size: 1em;
+    }
+}
+
+@media(max-width:390px)and (orientation:portrait) {
+    .central, .central2, .footer_sub {
+        font-size: 1em;
+    }
+}
+
+/* iPhone 11 / XS / X / iPhone 8 / 7 */
+@media(max-width:375px)and (orientation:landscape) {
+    .central, .central2 {
+        left: 46px;
+        top: -42px;
+    }
+    .central2 {
+        top: -47px;
+    }
+}
+@media(max-width:375px)and (orientation:portrait) {
+    .Container {
+        padding: 60px 15px;
+    }
+}
+
+@media(max-width:360px) {
+    .Container {
+        padding: 60px 15px;
+    }
+    .footer_row {
+        grid-template-columns: repeat(auto-fill,minmax(279px, 1fr));
+    }
+    .central, .central2, .footer_sub {
+        font-size: 1em;
+    }
+}
+
+@media(max-width:320px) {
+    .footer_row {
+        grid-template-columns: repeat(auto-fill,minmax(270px, 1fr));
+    }
+    .links, .copy {
+        font-size: 13px;
+    }
+    .Container {
+        padding: 60px 0px;
     }
 }
