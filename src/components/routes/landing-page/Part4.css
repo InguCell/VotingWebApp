@@ -12,7 +12,7 @@
         .main_container{
             width:100%;
             height: 44rem;
-            margin-top:-10rem;
+            margin-top:0rem;
             background-color: #8c1f1f;
             color:white;
             padding:6rem;
@@ -74,6 +74,7 @@
             display: flex;
             flex-direction: row;
             gap:5rem;
+            margin-top:0rem;
         
         }
         
@@ -97,6 +98,7 @@
             flex-direction: row;
             gap:5rem;
             padding-top: 4rem;
+            margin-top:0rem;
         }
         
         .inner_container{  
@@ -124,6 +126,7 @@
             display: flex;
             flex-direction: row;
             gap:5rem;
+            margin-top:0rem;
         
         }
         
@@ -155,6 +158,7 @@
             display: flex;
             flex-direction: row;
             gap:5rem;
+            margin-top:0rem;
         
         }
         
@@ -181,7 +185,8 @@
     @media screen and (min-width: 1280px) and (orientation: landscape){
        
         .main_container{
-            height: 28rem;    
+            height: 28rem;   
+            margin-top:0rem; 
         }
         
         .inner_container{
@@ -203,7 +208,8 @@
     @media screen and (min-width: 1280px) and (orientation: landscape){
        
         .main_container{
-            height: 28rem;    
+            height: 28rem;   
+            margin-top:0rem; 
         }
         
         .inner_container{
@@ -228,6 +234,7 @@
             height: 38rem;
             padding-top: 9rem;    
             padding-bottom: 2rem;
+            margin-top:0rem;
         }
         
         .inner_container{
@@ -253,6 +260,7 @@
             height: 38rem;
             padding-top: 9rem;    
             padding-bottom: 2rem;
+            margin-top:0rem;
         }
         
         .inner_container{
