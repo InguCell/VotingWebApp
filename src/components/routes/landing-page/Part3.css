@@ -140,6 +140,27 @@
  }
 }
 
+@media screen and (min-width: 800px) and (orientation: landscape){
+    .bar-sizes{
+   margin-left: 2.4rem;
+    width:120px;
+   }
+  
+   .card-headingp3{
+      left:-0.5rem;
+      width:13rem;
+      font-size: 1.1rem;
+   }
+  
+   .bar2{
+      margin-top: -1.2rem;
+   }
+  
+   .bar3{
+      margin-top: 1.1rem;
+   }
+  }
+
 @media screen and (min-width: 912px) and (orientation: portrait){
     
    .bar2{

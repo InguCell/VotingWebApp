@@ -1,0 +1,278 @@
+
+
+.main_container{
+    background-color: #8c1f1f;
+    color:white;
+}
+
+@media screen and (min-width: 0px) and (orientation: portrait){
+
+
+
+        .main_container{
+            width:100%;
+            height: 44rem;
+            margin-top:-10rem;
+            background-color: #8c1f1f;
+            color:white;
+            padding:6rem;
+            display: flex;
+            flex-direction: column;
+            gap:5rem;
+        
+        }
+        
+        .inner_container{
+          margin-top: 3rem;   
+          margin-left: -4.4rem;
+          width: 20rem;
+          word-spacing: 0.1rem;
+          font-size: 0.8rem;
+        }
+        
+        
+        .graph{
+            width:17rem;
+        }
+
+    } 
+
+    @media screen and (min-width: 375px) and (orientation: portrait){
+ 
+        .graph{
+            width:20rem;
+        }
+
+    } 
+
+    @media screen and (min-width: 414px) and (orientation: portrait){
+        .inner_container{
+            width: 22rem;
+        }
+ 
+        .graph{
+            width:22rem;
+        }
+
+    }
+    
+    @media screen and (min-width: 390px) and (orientation: portrait){
+        .inner_container{
+            width: 22rem;
+            margin-left: -5rem;
+        }
+ 
+        .graph{
+            width:22rem;
+        }
+
+    } 
+
+    @media screen and (min-width: 768px) and (orientation: portrait){
+        .main_container{
+            height: 26rem;
+            display: flex;
+            flex-direction: row;
+            gap:5rem;
+        
+        }
+        
+        .inner_container{  
+          margin-left: -2rem;
+          word-spacing: 0.1rem;
+          font-size: 0.9rem;
+        }
+        
+        
+        .graph{
+            width:19rem;
+        }
+
+    } 
+
+    @media screen and (min-width: 700px) and (orientation: landscape){
+        .main_container{
+            height: 23rem;
+            display: flex;
+            flex-direction: row;
+            gap:5rem;
+            padding-top: 4rem;
+        }
+        
+        .inner_container{  
+          margin-left: 1rem;
+          word-spacing: 0.1rem;
+          font-size: 0.9rem;
+        }
+        
+        
+        .graph{
+            width:19rem;
+        }
+
+    } 
+
+    @media screen and (min-width: 1000px) and (orientation: landscape){
+       
+        .main_container{
+            width:100%;
+            height: 25rem;
+            margin-top:-10rem;
+            background-color: #8c1f1f;
+            color:white;
+            padding:6rem;
+            display: flex;
+            flex-direction: row;
+            gap:5rem;
+        
+        }
+        
+        .inner_container{
+          margin-top: 3rem;   
+          margin-left: 0rem;
+          width: 24rem;
+          word-spacing: 0.1rem;
+          font-size: 1rem;
+        }
+        
+        
+        .graph{
+            width:20rem;
+        }
+
+
+    } 
+
+    @media screen and (min-width: 900px) and (orientation: landscape){
+       
+        .main_container{
+            width:100%;
+            height: 25rem;
+            margin-top:-10rem;
+            background-color: #8c1f1f;
+            color:white;
+            padding:6rem;
+            display: flex;
+            flex-direction: row;
+            gap:5rem;
+        
+        }
+        
+        .inner_container{
+          margin-top: 3rem;   
+          margin-left: 0rem;
+          width: 24rem;
+          word-spacing: 0.1rem;
+          font-size: 1rem;
+        }
+        
+        
+        .graph{
+            width:20rem;
+        }
+
+
+    } 
+
+    
+       
+       
+
+    @media screen and (min-width: 1280px) and (orientation: landscape){
+       
+        .main_container{
+            height: 28rem;    
+        }
+        
+        .inner_container{
+          margin-top: 3rem;   
+          margin-left: 5rem;
+          width: 24rem;
+          word-spacing: 0.1rem;
+          font-size: 1.3rem;
+        }
+        
+        
+        .graph{
+            width:24rem;
+        }
+
+
+    } 
+
+    @media screen and (min-width: 1280px) and (orientation: landscape){
+       
+        .main_container{
+            height: 28rem;    
+        }
+        
+        .inner_container{
+          margin-top: 3rem;   
+          margin-left: 5rem;
+          width: 24rem;
+          word-spacing: 0.1rem;
+          font-size: 1.3rem;
+        }
+        
+        
+        .graph{
+            width:24rem;
+        }
+
+
+    } 
+
+    @media screen and (min-width: 1500px) and (orientation: landscape){
+       
+        .main_container{
+            height: 38rem;
+            padding-top: 9rem;    
+            padding-bottom: 2rem;
+        }
+        
+        .inner_container{
+          margin-top: 3rem;   
+          margin-left: 6rem;
+          width: 29rem;
+          word-spacing: 0.1rem;
+          font-size: 1.1rem;
+        }
+        
+        
+        .graph{
+            width:27rem;
+            margin-top: -1rem;
+        }
+
+
+    } 
+
+    @media screen and (min-width: 1900px) and (orientation: landscape){
+       
+        .main_container{
+            height: 38rem;
+            padding-top: 9rem;    
+            padding-bottom: 2rem;
+        }
+        
+        .inner_container{
+          margin-top: 3rem;   
+          margin-left: 10rem;
+          width: 37rem;
+          word-spacing: 0.1rem;
+          font-size: 1.1rem;
+        }
+        
+        
+        .graph{
+            width:31rem;
+            margin-top: -1rem;
+        }
+
+
+    } 
+
+
+
+
+    

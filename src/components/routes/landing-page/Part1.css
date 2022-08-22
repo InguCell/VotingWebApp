@@ -311,6 +311,44 @@
     }
 }
 
+@media screen and (min-width: 700px) and (orientation: landscape){
+    
+    .part1{
+        height: 40rem;
+    }
+    .picture1{
+        margin-left: 0.8rem;
+    }
+
+    .part1-sub{
+        width: 50%;
+    }
+
+    .writing-container{
+        top:-30rem;
+        left:2rem
+    }
+    
+    .part1-writing{
+        width: auto;
+          font-size: 2.5rem;
+          font-weight: bold;
+          padding-bottom: 1rem;
+        }
+    
+        .part1-sub{
+            font-size: 1.2rem;
+            word-spacing: 0.1rem;
+            line-height: 2rem;
+        }
+        
+        .landing-buttons-container button{
+            font-size: 0.9rem;
+            position: relative;
+         }
+         
+}
+
 @media screen and (min-width: 1800px) and (orientation: landscape){
     
     .part1{
