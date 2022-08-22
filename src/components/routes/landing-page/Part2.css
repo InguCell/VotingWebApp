@@ -1,4 +1,124 @@
-.part2{
+@media (min-width:0px) {  
+    .whole,.part2-session{
+        width: 100%;
+    }
+    .whole,.cards{
+        background-color:#8c2020 ;
+        color: white;
+    }    
+    .cards{
+        border: none;
+    }
+    .heading{
+        margin: 4rem auto;
+    }
+    .img{
+        height: auto;
+        background-color:#8c2020 ;
+        margin: 0px auto 10px auto;
+        width: 70%;
+    }    
+    .whole,.part2_img_div{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    .top-heading, .card-text, .card-title {
+        text-align: center;
+    }    
+    .row, .cards, .card-sub{
+        flex-direction: column;
+        align-items: center;
+    }    
+    .row{
+        margin: auto;
+    }
+    .col{
+        width: 85%;
+        margin-bottom: 5rem;
+    }
+    .top-heading{
+        margin-bottom: 40px;
+    }
+    .top-heading h2{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .card-sub-heading{
+        font-size: 0.8rem;
+    }    
+    .card-heading{
+        font-size: 1.3rem;
+    }  
+}
+
+@media (min-width:360px) {
+    .img{
+        width: 90%;
+    }  
+    .card-heading{
+        font-size: 1.6rem;
+    }  
+    .part2_img_div{
+        margin-bottom: 2rem;
+    }
+    .top-heading h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width:390px) {  
+    .card-heading{
+        font-size: 1.8rem;
+    } 
+    .top-heading h2{
+        font-weight: 700;
+    }
+    .card-sub-heading {
+        font-size: 0.95rem;
+    }
+}
+
+@media (min-width:768px) { 
+    .row{
+        flex-direction: row;
+    } 
+    .card-heading {
+        font-size: 1.7rem;
+    }
+    .cards{
+        min-height: 33vh;
+    }
+    .sub-top-heading{
+        font-size: 1.7rem;
+    }
+    .top-heading h2 {
+        font-size: 3rem;
+    } 
+}
+
+@media (min-width:768px) and (orientation:landscape) { 
+    .cards{
+        min-height: 47vh;
+    }
+}
+
+@media (min-width:1920px){ 
+    .card-sub-heading {
+        font-size: 1.7rem;
+    }
+    .card-heading {
+        font-size: 2.7rem;
+    }
+    .top-heading h2 {
+        font-size: 5rem;
+    }
+}
+
+
+
+
+/* .part2{
     padding-bottom: 7rem;
     width:100%;
     color: white;
@@ -343,4 +463,4 @@
         width: 50%;
       }
     
-}
+} */
