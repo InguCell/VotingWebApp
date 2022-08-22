@@ -50,7 +50,7 @@ export default function Register(){
 
     return(
         <div className="home_body">
-            <Container>
+            <Container fluid>
                 <div className="home_header">
                     <h1>Welcome!!</h1>
                     <p>Register As Voter On The Voting Platforms To Vote For The <br/> Candidate Of Your Choice</p>

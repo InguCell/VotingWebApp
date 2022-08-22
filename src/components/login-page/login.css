@@ -1,190 +1,210 @@
-.login_main{
-    margin: 40px;
-}
-.login_header h1{
-    color: rgb(140,31,31);
-    font-weight: bold;
-    font-size: 3.3rem;
-    margin-top: 85px;
-    margin-bottom: 35px;
-}
-#st_group{
-    margin-bottom: 50px;
-}
-#login_group{
-    margin-bottom: 60px;
+@media (max-width:1920px) {
+    
+    #login_container{
+        width: 90%;
+    }
+    .login_sec_row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .login_main{
+        margin: 40px;
+    }
+    .lbl_link{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .login_header h1{
+        color: rgb(140,31,31);
+        font-weight: bold;
+        font-size: 4rem;
+        margin-top: 85px;
+        margin-bottom: 35px;
+    }
+    #st_group{
+        margin-bottom: 50px;
+    }
+    #login_group{
+        margin-bottom: 60px;
+    }
+    
+    .pic_col{
+        display: inline-flex;
+        width: 50%;
+        flex-direction: column;
+    }
+    
+    .pic_col p{
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    
+    .login_pic{
+        width: 110%;
+        height: 446px;
+    }
+    
+    .form_col{
+        display: inline-block;
+        width: 34%;
+    }
+    .sign_in{
+        text-transform: capitalize;
+        font-size: 30px;
+        color: rgb(140,31,31);
+        display: none;
+        font-weight:700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .stNo,.login_pass,#sign_button{
+        height: 49px;
+        width: 100%;
+        border-radius: 12px;
+        border:2px solid rgb(140,31,31);
+        transition: all 0.3s;
+    }
+    
+    #sign_button{
+        border:none;
+        background:rgb(140,31,31);
+    }
+    
+    .forgot_pass{
+        text-decoration: none;
+        display: inline-block;
+        color: rgb(140,31,31);
+        font-weight: 600;
+    }
+    .forgot_pass:hover{
+        text-decoration: underline;
+        color: rgb(140,31,31);
+    }
+    #check{
+        box-shadow: none;
+        border: 1.5px solid rgb(140,31,31);
+    }
+    
+    #check:checked{
+        background-color: rgb(140,31,31);
+        border: none;
+        box-shadow: 0 0 5px rgb(140,31,31) ;
+    }
+    
+    #sign_button:hover{
+        background-color:white;
+        color: black;
+        border: 0.2rem solid #8c1f1f;
+    }
+    #sign_button:focus{
+        box-shadow: 0 0 1px rgb(140,31,31);
+        color: aliceblue;
+        background-color: rgb(56, 6, 6);
+    }
+    #log_reg_link{
+        text-decoration: none;
+        color: rgb(140,31,31);
+        font-weight: 600;
+    }
+    
+    #log_reg_link:hover{
+        text-decoration: underline;
+    }
+    
+    .login_pass:focus, .stNo:focus{
+        transition: all 0.3s;
+        border: 0 none;
+        box-shadow: 0 0 13px rgb(140,31,31);
+    }
+    
 }
 
-.pic_col{
-    display: inline-block;
-    width: 50%;
-}
-
-.pic_col p{
-    margin-top: 30px;
-    margin-bottom: 50px;
-    text-align: left;
-}
-
-.login_pic{
-    width: 96%;
-    height: 446px;
-    object-fit: contain;
-}
-
-.form_col{
-    display: inline-block;
-    width: 34%;
-    float: right;
-}
-.sign_in{
-    text-transform: capitalize;
-    font-size: 30px;
-    color: rgb(140,31,31);
-    display: none;
-    font-weight:700;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.stNo,.login_pass,#sign_button{
-    height: 49px;
-    width: 100%;
-    border-radius: 12px;
-    border:2px solid rgb(140,31,31);
-    transition: all 0.3s;
-}
-
-#sign_button{
-    border:none;
-    background:rgb(140,31,31);
-}
-
-.forgot_pass{
-    text-decoration: none;
-    float: right;
-    display: inline-block;
-    position: relative;
-    color: rgb(140,31,31);
-    font-weight: 600;
-    top: -26px;
-}
-.forgot_pass:hover{
-    text-decoration: underline;
-    color: rgb(140,31,31);
-}
-#check{
-    box-shadow: none;
-    border: 1.5px solid rgb(140,31,31);
-}
-
-#check:checked{
-    background-color: rgb(140,31,31);
-    border: none;
-    box-shadow: 0 0 5px rgb(140,31,31) ;
-}
-
-#sign_button:hover{
-    background-color:white;
-    color: black;
-    border: 0.2rem solid #8c1f1f;
-}
-#sign_button:focus{
-    box-shadow: 0 0 1px rgb(140,31,31);
-    color: aliceblue;
-    background-color: rgb(56, 6, 6);
-}
-#log_reg_link{
-    text-decoration: none;
-    color: rgb(140,31,31);
-    font-weight: 600;
-}
-
-#log_reg_link:hover{
-    text-decoration: underline;
-}
-
-.login_pass:focus, .stNo:focus{
-    transition: all 0.3s;
-    border: 0 none;
-    box-shadow: 0 0 13px rgb(140,31,31);
+@media(max-width:1280px){
+    .pic_col p{
+        font-size: 21px;
+    }  
 }
 
 @media(max-width:1024px) {
+    #login_container{
+        width: 100%;
+    }
     .form_col{
-        width: 33%;
+        width: 45%;
+    }
+    .login_header h1{
+        font-size: 3.5rem;
     }
 }
-@media(max-width:991px) {
-    .form_col{
-        width: 43%;
+
+@media(max-width:834px) {
+    .login_header h1{
+        font-size: 3.1rem;
+    }
+    .login_main {
+        margin: 40px 5px;
     }
 }
 
 @media(max-width:768px){
     .pic_col {
-        width: 65%;
+        width: 45%;
     }
     .pic_col p br{
         display: none;
     }
     .pic_col p{
-        text-align: center;
         margin: 50px auto;
         font-size: 18px;
     }
-    .pic_col,.form_col{
-        display: block;
-        float: none;
-        margin: auto;
-    }
-    .form_col{
-        width: 50%;
-        margin: 50px auto;
+    .login_pic{
+        height: 300px;
     }
     .login_header h1{
         font-size: 3.0rem;
+    } 
+    .form_col{
+        margin-top: 30px;
     }
-    .sign_in{
+}
+
+@media(max-width:414px) {
+    .login_sec_row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pic_col{
+        width: 90%;
+        align-items: center;
+    }
+    .form_col{
+        width: 85%;
+        margin: 60px auto;
+    }
+    .sign_in {
         display: block;
-    }  
-}
-
-@media(max-width:540px) {
-    .login_header h1{
-        font-size: 2.7rem;
-    }
-    .form_col{
-        width: 75%;
-    }
-    .login_pic{
-        width: 100%;
-    }
-    .pic_col {
-        width: 80%;
-    }
-    .pic_col p{
-        margin-top: 70px;
-        margin-bottom: 40px;
-    }
-}
-
-@media (max-width:440px){
-    .form_col{
-        width: 89%;
-    }
-    .pic_col {
-        width: 95%;
-    }
-    .login_header h1 {
-        font-size: 2.5rem;
-    }
-    .sign_in{
         font-size: 25px;
     }
+    .login_header h1 {
+        font-size: 2rem;
+    }
+    .lbl_link {
+        font-size: 13px;
+    }
 }
 
-@media(max-width:412px) {
+@media(max-width:390px) {
+    .form_col {
+        width: 85%;
+        margin: 75px auto;
+    } 
+}
+
+@media(max-width:375px) {
     .login_main {
         margin: auto 30px;
     }
@@ -199,23 +219,29 @@
     }
 }
 
-@media(max-width:375px) {
+@media(max-width:360px) {
+    .login_main {
+        margin: auto 30px;
+    }
     .login_header h1 {
-        font-size: 2.3rem;
+        font-size: 2.4rem;
+    }
+    .pic_col {
+        width: 100%;
     }
     .form_col {
         width: 100%;
     }
-    .login_pic{
-        height: 360px;
+    #login_container{
+        padding: 0px;
     }
-    .sign_in{
-        font-size: 21px;
-    }
-    .forgot_pass, label{
-        font-size: 13px;
-        font-weight: 500;
-    }
-   
 }
+
+@media(max-width:320px) {
+    .login_main {
+        margin: auto 20px;
+    }
+}
+
+
 

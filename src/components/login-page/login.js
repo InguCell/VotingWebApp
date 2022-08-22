@@ -13,8 +13,9 @@ export default function Login(){
         </Form.Group>
         <Form.Group id="login_group">
             <Form.Control className="login_pass" type="password" placeholder="Password"/>
-            <Form.Check id="check" type="checkbox" label="Remember me"/>
+            <div className="lbl_link"><Form.Check id="check" type="checkbox" label="Remember me"/>
             <Nav.Link><Link  to="/forgot" className="forgot_pass">Forgot Password?</Link></Nav.Link>
+            </div>            
         </Form.Group>
         <Form.Group >
             <Button id="sign_button">Sign In</Button>
@@ -23,7 +24,7 @@ export default function Login(){
 
     return(
         <div className="login_main">
-            <Container id="login_container">
+            <Container fluid id="login_container">
             <div className="login_header">
                 <h1>sign in to <br/>redirect to the main page</h1>
             </div>

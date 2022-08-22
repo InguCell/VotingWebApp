@@ -10,13 +10,13 @@ import { useNavigate } from "react-router";
 export default function Forgot(){
     const navigate= useNavigate();
     const forgot_form=
-    <Form>
+    <Form style={{display:"inline-flex",flexDirection:"column"}}>
         <Form.Label 
         id="forgot_label"
-        className="mb-4"
+        style={{display:"block"}}
         >forgotten password</Form.Label>
-        <Form.Text style={{fontSize:"16px"}}>Enter your your student email and we would send you a code to reset your password</Form.Text>
-        <Form.Group className="mb-5 mt-4">
+        <Form.Text id="forgot_form_text">Enter your your student email and we would send you a code to reset your password</Form.Text>
+        <Form.Group className="forgot_mail forgot_mail_2">
             <Form.Control type="email" id="forgot_mail" placeholder="Enter your student email"/>
         </Form.Group>
         <Form.Group>
@@ -35,7 +35,7 @@ export default function Forgot(){
                 onClick={()=>navigate(-1)}
                 />
             </div>
-            <Container>
+            <Container fluid id="login_container">
                 <div className="forgot_sec">
                     <img id="forgot_pic" src={forgot_pic}/>
                     <div id="forgot_form">{forgot_form}</div>

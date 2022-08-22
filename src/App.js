@@ -1,4 +1,5 @@
 import React from "react";
+import "./appjs.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/footer/footer.js";
@@ -19,7 +20,7 @@ import Forgot from "./components/login-page/forgot-password/forgot_password";
 function App() {
   return (
 
-    <div>
+    <div className="main_app_js_div">
    
 <BrowserRouter>
 <Navbar />
