@@ -4,7 +4,7 @@ import 'react-circular-progressbar/dist/styles.css';
 import ProgessBars from './progressbar1'
 import Progressbar2 from './progressbar2';
 import Progressbar3 from './progressbar3';
-import "./Part3.css"
+import "./part3.css"
 
 
 export default function () {

@@ -47,3 +47,19 @@
     }
 }
 
+
+@media (min-width:1024px) {
+    .card-heading3 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width:1920px) {
+    .bar-sizes{
+        width: 18rem;
+    }
+    .card-heading3{
+        font-size: 2.3rem;
+    }
+}
+
