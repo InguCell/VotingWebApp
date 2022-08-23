@@ -27,6 +27,7 @@
         border-radius: 12px;
         border:2px solid rgb(140,31,31);
         transition: all 0.3s;
+        -webkit-transition: all 0.3s;
     }    
     input[type="textarea"]{
         height: 200px;
@@ -58,6 +59,7 @@
     }    
     input[type="textarea"]:focus, #name:focus, #mail:focus, #dept:focus{
         transition: all 0.3s;
+        -webkit-transition: all 0.3s;
         border: 0 none;
         box-shadow: 0 0 13px rgb(140,31,31);
     }    

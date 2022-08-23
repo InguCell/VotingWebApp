@@ -54,7 +54,7 @@ const part2 =
                 </div>
                 
                 <Card.Body class="card-sub">
-                  <Card.Title><h3 class="card-heading card-heading3 ">
+                  <Card.Title><h3 class="card-heading ">
                     Number of Students Registered
                     </h3></Card.Title>
                   <Card.Text><p class="card-sub-heading">        
@@ -74,7 +74,7 @@ const part2 =
                 </div>
 
                 <Card.Body class="card-sub">
-                  <Card.Title><h3 class="card-heading card-heading3">
+                  <Card.Title><h3 class="card-heading">
                     Total Number of Votes
                   </h3></Card.Title>
                   <Card.Text><p class="card-sub-heading">    
@@ -95,7 +95,7 @@ const part2 =
                 </div>
 
                 <Card.Body class="card-sub">
-                  <Card.Title><h3 class="card-heading card-heading3">
+                  <Card.Title><h3 class="card-heading">
                     Number of Registered Candidates
                     </h3></Card.Title>
                   <Card.Text><p class="card-sub-heading">

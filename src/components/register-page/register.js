@@ -1,10 +1,24 @@
 import React from "react";
+import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEyeSlash,faEye } from "@fortawesome/free-solid-svg-icons";
 import "./register.css";
 import regis from "./regis.png"
 import {Form, Container, Button, Nav} from "react-bootstrap";
 
 
 export default function Register(){
+
+    const [state, setstate]=useState(false);
+    const toggleBtn=()=>{
+        setstate(prevState=>!prevState);
+    }
+
+    const [repass, setrepass]=useState(false);
+    const toggleBtn2=()=>{
+        setrepass(prevState=>!prevState);
+    }
+
     const home_form=
     <Form>
         <h4 className="lbl">Register here</h4>
@@ -34,11 +48,25 @@ export default function Register(){
         </Form.Group>
 
         <Form.Group className="mb-5">
-            <Form.Control id="pass" type="password" placeholder="Password"/>
+            <div style={{display:"flex"}} id="pass">
+            <Form.Control  type={state?"text":"password"} placeholder="Password"/>
+            <Button id="login-toggle" 
+            style={{border:"none", background:"transparent"}}
+            onClick={toggleBtn}>
+                {state? <FontAwesomeIcon icon={faEyeSlash} color="rgb(140,31,31)"/>:<FontAwesomeIcon icon={faEye} color="rgb(140,31,31)"/>}
+            </Button>
+            </div>
         </Form.Group>
 
         <Form.Group className="mb-5" id="repas">
-            <Form.Control id="repass" type="password" placeholder="Re-Password"/>
+            <div style={{display:"flex"}} id="repass">
+            <Form.Control  type={repass?"text":"password"} placeholder="Re-Password"/>
+            <Button id="login-toggle" 
+            style={{border:"none", background:"transparent"}}
+            onClick={toggleBtn2}>
+                {repass? <FontAwesomeIcon icon={faEyeSlash} color="rgb(140,31,31)"/>:<FontAwesomeIcon icon={faEye} color="rgb(140,31,31)"/>}
+            </Button>
+            </div>
             <Form.Text id="text">By Clicking the sign in button</Form.Text>
             <Form.Text id="text1"><Nav.Link>Terms and conditions</Nav.Link></Form.Text>
         </Form.Group>

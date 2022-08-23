@@ -46,6 +46,10 @@
         width: 110%;
         height: 446px;
     }
+
+    #login-toggle{
+        margin-left: -3rem;
+    }
     
     .form_col{
         display: inline-block;
@@ -104,6 +108,9 @@
         box-shadow: 0 0 1px rgb(140,31,31);
         color: aliceblue;
         background-color: rgb(56, 6, 6);
+    }
+    #login-toggle:focus{
+        box-shadow: none;
     }
     #log_reg_link{
         text-decoration: none;
