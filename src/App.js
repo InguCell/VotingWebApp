@@ -18,6 +18,13 @@ import Forgot from "./components/login-page/forgot-password/forgot_password";
 
 
 function App() {
+  var cbf;
+
+ var link = '/404';
+  
+  console.log(link);
+
+
   return (
 
     <div className="main_app_js_div">
@@ -26,24 +33,21 @@ function App() {
 <Navbar />
 
 <Routes>
-  <Route path="/" element={ <Landing /> }></Route>
   <Route path="/contact" element={ <Contact/> } />
   <Route path="/register" element={ <Register/> } />
   <Route path="/FAQ" element={ <FAQ/> } />
   <Route path="/Login" element={ <Login/> }/>
   <Route path="/forgot" element={ <Forgot/> }/>  
-  <Route exact path="/" element={ <Landing /> }></Route>
+  <Route exact path="/VotingWebAppHome" element={ <Landing /> }></Route>
   <Route path="/contact" element={ <Contact/> } /> 
   <Route path="/about" element={ <About/> } />
+  //Error page route link..... Connect when needed
+  <Route path={link} element={ <Contact/> } />
 </Routes>
-<Outlet />
 
 
 <Footer/>
 </BrowserRouter>
-
-
-     
 
 
      {/* [] key features integrated for performace--- */}
