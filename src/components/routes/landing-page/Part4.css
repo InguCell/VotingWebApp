@@ -5,7 +5,11 @@
     color:white;
 }
 
-@media screen and (min-width: 0px) and (orientation: portrait){
+.part4-lettering h2{
+    text-align: center;
+}
+
+@media screen and (min-width: 0px){
 
 
 
@@ -15,26 +19,25 @@
             margin-top:0rem;
             background-color: #8c1f1f;
             color:white;
-            padding:6rem;
             display: flex;
             flex-direction: column;
-            gap:5rem;
+            gap:4rem;
         
         }
         
-        .inner_container{
-          margin-top: 3rem;   
-          margin-left: -4.4rem;
-          width: 20rem;
-          word-spacing: 0.1rem;
-          font-size: 0.8rem;
+        
+        .inner_container {
+            word-spacing: 0.1rem;
+            font-size: 0.8rem;
+            margin: 3rem auto auto auto;
+            word-spacing: 0.1rem;
+            font-size: 0.8rem;
         }
         
         
         .graph{
             width:17rem;
         }
-
     } 
 
     @media screen and (min-width: 375px) and (orientation: portrait){
@@ -45,25 +48,25 @@
 
     } 
 
-    @media screen and (min-width: 414px) and (orientation: portrait){
-        .inner_container{
-            width: 22rem;
+    @media screen and (min-width: 700px) and (orientation: landscape){
+        .main_container{
+            height: 23rem;
+            display: flex;
+            flex-direction: row;
+            gap:5rem;
+            margin-top:0rem;
         }
- 
+        
+        .inner_container {
+            word-spacing: 0.1rem;
+            font-size: 0.9rem;
+            margin: auto;
+        }
+        
+        
+        
         .graph{
-            width:22rem;
-        }
-
-    }
-    
-    @media screen and (min-width: 390px) and (orientation: portrait){
-        .inner_container{
-            width: 22rem;
-            margin-left: -5rem;
-        }
- 
-        .graph{
-            width:22rem;
+            width:19rem;
         }
 
     } 
@@ -78,10 +81,11 @@
         
         }
         
-        .inner_container{  
-          margin-left: -2rem;
-          word-spacing: 0.1rem;
-          font-size: 0.9rem;
+        .inner_container{
+            width: 50%;
+            word-spacing: 0.1rem;
+            font-size: 0.9rem;
+            margin: auto;
         }
         
         
@@ -91,35 +95,13 @@
 
     } 
 
-    @media screen and (min-width: 700px) and (orientation: landscape){
-        .main_container{
-            height: 23rem;
-            display: flex;
-            flex-direction: row;
-            gap:5rem;
-            padding-top: 4rem;
-            margin-top:0rem;
-        }
-        
-        .inner_container{  
-          margin-left: 1rem;
-          word-spacing: 0.1rem;
-          font-size: 0.9rem;
-        }
-        
-        
-        .graph{
-            width:19rem;
-        }
-
-    } 
+    
 
     @media screen and (min-width: 1000px) and (orientation: landscape){
        
         .main_container{
             width:100%;
             height: 30rem;
-            margin-top:-10rem;
             background-color: #8c1f1f;
             color:white;
             padding:6rem;
@@ -131,9 +113,6 @@
         }
         
         .inner_container{
-          margin-top: 3rem;   
-          margin-left: 0rem;
-          width: 24rem;
           word-spacing: 0.1rem;
           font-size: 1rem;
         }
@@ -151,7 +130,6 @@
         .main_container{
             width:100%;
             height: 25rem;
-            margin-top:-10rem;
             background-color: #8c1f1f;
             color:white;
             padding:6rem;
@@ -163,9 +141,6 @@
         }
         
         .inner_container{
-          margin-top: 3rem;   
-          margin-left: 0rem;
-          width: 24rem;
           word-spacing: 0.1rem;
           font-size: 1rem;
         }
@@ -189,9 +164,6 @@
         }
         
         .inner_container{
-          margin-top: 3rem;   
-          margin-left: 5rem;
-          width: 24rem;
           word-spacing: 0.1rem;
           font-size: 1.3rem;
         }
@@ -212,9 +184,6 @@
         }
         
         .inner_container{
-          margin-top: 3rem;   
-          margin-left: 5rem;
-          width: 24rem;
           word-spacing: 0.1rem;
           font-size: 1.3rem;
         }
@@ -231,23 +200,17 @@
        
         .main_container{
             height: 38rem;
-            padding-top: 9rem;    
-            padding-bottom: 2rem;
             margin-top:0rem;
         }
         
         .inner_container{
-          margin-top: 3rem;   
-          margin-left: 6rem;
-          width: 29rem;
           word-spacing: 0.1rem;
           font-size: 1.1rem;
         }
         
         
         .graph{
-            width:27rem;
-            margin-top: -1rem;
+            width:34rem;
         }
 
 
@@ -257,15 +220,10 @@
        
         .main_container{
             height: 38rem;
-            padding-top: 9rem;    
-            padding-bottom: 2rem;
             margin-top:0rem;
         }
         
         .inner_container{
-          margin-top: 3rem;   
-          margin-left: 10rem;
-          width: 37rem;
           word-spacing: 0.1rem;
           font-size: 1.1rem;
         }
@@ -273,7 +231,6 @@
         
         .graph{
             width:31rem;
-            margin-top: -1rem;
         }
 
 

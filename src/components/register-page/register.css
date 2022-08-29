@@ -1,25 +1,44 @@
-@media(max-width:1920px) {
-    .home_body{
-        margin: 80px;
+@media (min-width:0px) {
+    .home_header h1{
+        color: rgb(140,31,31);
+        font-weight:700;
+        font-size: 55px;
+    } 
+    .home_form_box{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .home_header{
+        text-align: center;
+        margin: 50px auto;
+        font-size: 0.8em;
+    }
+    .regis_pic{
+        min-height: 28rem;
+        top: 0px;
+        right: 0px;
+        width: 95%;
+    }
+    #student_mail, #department, #number, #pass, #repass, #sign_in_button {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .second_row {
         display: flex;
-        flex-direction: row-reverse;
-        min-height: 70vh;
-    }    
+        flex-direction: column;
+        align-items: center;
+        min-height: 40rem;
+    }
     .lbl{
         font-size: 30px;
         color: rgb(140,31,31);
-        display: none;
+        display: block;
         font-weight:700;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         text-transform: capitalize;
-    }    
-    .home_header{
-        margin: 80px 135px;
-        text-align: left;
-    } 
+    }
     #text, #text1{
         display: block;
         text-align: center;
@@ -27,26 +46,15 @@
     }
     #text1{
         color: rgb(140,31,31);
-    }    
-    .home_header h1{
-        color: rgb(140,31,31);
-        font-weight:700;
-        font-size:70px;
-    }    
+    } 
     #student_mail, #department, #number, #pass, #repass{
-        width:60%;
         border-radius: 12px;
-        margin-left: auto;
-        margin-right: auto;
         border:2px solid rgb(140,31,31);
         height: 50px;
         transition: all 0.3s;
     }    
     #sign_in_button{
-        width:60%;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
         height: 45px;
         border:none;
         background:rgb(140,31,31);
@@ -58,273 +66,33 @@
     }
     #sign_in_button:focus{
         box-shadow: 0 0 1px rgb(140,31,31);
-        color: aliceblue;
-        background-color: rgb(56, 6, 6);
-    }    
-    .home_form_box{
-        width: 40%;
-        display: inline-block;
-    }    
-    .regis_pic{
-        width: 60%;
-        float: right;
-        height: 70vh;
-        object-fit: fill;
-        position: relative;
-        top: -80px;
-        right: -13px;
-    }    
-    .home_image{
-        height: 300px;
-        margin-top: 15px;
-        float: right;
-        border: 1px solid rgb(140,31,31) ;
     }    
     #student_mail:focus, #department:focus, #number:focus, #pass:focus, #repass:focus{
         transition: all 0.3s;
         border: 0 none;
         box-shadow: 0 0 13px rgb(140,31,31);
-    }    
+    }   
 }
 
-@media(max-width:1600px) {
-    #student_mail, #department, #number, #pass, #repass,#sign_in_button {
-        width: 66%;
-    }
-    .home_header {
-        margin: 80px 95px;
-    }
-    .regis_pic {
-        top: -40px;
-    }  
-}
-
-@media(max-width:1536px) {
-    #student_mail, #department, #number, #pass, #repass,#sign_in_button {
-        width: 66%;
-    }
-    .home_header {
-        margin: 80px 95px;
-    } 
-    .regis_pic {
-        top: -45px;
-    }
-}
-
-@media(max-width:1440px) {
-    #student_mail, #department, #number, #pass, #repass,#sign_in_button {
-        width: 70%;
-    }
-    .home_header {
-        margin: 80px 75px;
-    } 
-    .regis_pic {
-        top: -45px;
-    }
-}
-
-@media(max-width:1366px) {
-    #student_mail, #department, #number, #pass, #repass,#sign_in_button {
-        width: 70%;
-    }
-    .home_header{
-        margin-left: 72px;
-    }  
-    .regis_pic {
-        height: 87vh;
-        top: -43px;
-    }
-}
-
-@media(max-width:1280px) {
-    #student_mail, #department, #number, #pass, #repass,#sign_in_button {
-        width: 78%;
-    }
-    .home_header{
-        margin-left: 50px;
-    }  
-    .regis_pic {
-        height: 87vh;
-        top: -43px;
-    }
-}
-
-@media (max-width:1024px)and (orientation:portrait) {
-    .second_row {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 0;
-        min-height: 60vh;
-    }
-    .home_header{
-        margin-bottom: 20px;
-        margin-left: 44px;
-    }
-    .home_body {
-        margin: 0px;
-    }
-    .regis_pic {
-        right: -10px;
-        height: 60vh;
-        object-fit: contain;
-    }
-    #student_mail, #department, #number, #pass, #repass, #sign_in_button {
-        width: 78%;
-    }  
-}
-
-@media (max-width:1024px)and (orientation:landscape) {
-    .second_row {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 0;
-    }
-    .home_body {
-        margin: 0px;
-    }
-    .regis_pic {
-        right: -10px;
-        object-fit: contain;
-    }
-    #student_mail, #department, #number, #pass, #repass, #sign_in_button {
-        width: 78%;
-    }  
-}
-
-@media (max-width:834px)and (orientation:portrait) {
-    .regis_pic {
-        object-fit: fill;
-        width: 55%;
-        height: 48vh;
-    }
-    #student_mail, #department, #number, #pass, #repass, #sign_in_button {
-        width: 82%;
-    }  
-    .home_form_box{
-        width: 45%;
-    }
-    .home_header{
-        margin-left: 35px;
-    }
-}
-
-@media (max-width:834px)and (orientation:landscape) {
-    .regis_pic {
-        object-fit: fill;
-        width: 55%;
-        height: 60vh;
-    }
-    #student_mail, #department, #number, #pass, #repass, #sign_in_button {
-        width: 82%;
-    }  
-    .home_form_box{
-        width: 45%;
-    }
-    .home_header{
-        margin-left: 35px;
-    }
-}
-
-@media (max-width:768px) and (orientation:portrait) {
-    .second_row {
-        min-height: 80vh;
-    }
-    .regis_pic {
-        width: 60%;
-        height: 60vh;
-    }
-    .home_form_box{
-        width: 40%;
-    }
-    #student_mail, #department, #number, #pass, #repass, #sign_in_button {
-        width: 95%;
-    }
-    .home_header {
-        margin-bottom: 15px;
-        margin-left: 10px;
-    }
-}
-
-@media (max-width:768px) and (orientation:landscape) {
-    .second_row {
-        min-height: 80vh;
-    }
-    .regis_pic {
-        width: 60%;
-        height: 72vh;
-    }
-    .home_form_box{
-        width: 40%;
-    }
-    #student_mail, #department, #number, #pass, #repass, #sign_in_button {
-        width: 95%;
-    }
-    .home_header {
-        margin-bottom: 60px;
-        margin-left: 10px;
-    }
-}
-
-@media (max-width:414px) and (orientation:portrait) {
-    .second_row {
-        flex-direction: column;
-    }
-    .home_header{
-        text-align: center;
-        margin: 50px auto;
-        font-size: 0.9em;
-    }
-    .home_form_box{
-        width: 100%;
-        margin-top: 60px;
-    }
+@media (min-width:360px)and (orientation:portrait) { 
     .regis_pic{
-        height: 47vh;
-        top: 0px;
-        right: 0px;
-        width: 95%;
+        width: 22rem;
     }
     #student_mail, #department, #number, #pass, #repass, #sign_in_button {
-        width: 85%;
+        width: 81%;
     }
-    .lbl{
-        display: block;
-        margin-bottom: 40px;
-    }    
 }
 
-@media (max-width:414px) and (orientation:landscape) {
-    .second_row {
-        flex-direction: column;
+@media (min-width:360px) and (orientation:landscape) {
+    .home_header h1 {
+        font-size: 60px;
     }
     .home_header{
-        text-align: center;
-        margin: 50px auto;
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
-    .home_form_box{
-        width: 100%;
-        margin-top: 60px;
-    }
-    .regis_pic{
-        top: 0px;
-        right: 0px;
-        width: 95%;
-    }
-    #student_mail, #department, #number, #pass, #repass, #sign_in_button {
-        width: 85%;
-    }
-    .lbl{
-        display: block;
-        margin-bottom: 40px;
-    }    
 }
 
-@media (max-width:375px) and (orientation:portrait) { 
+@media (min-width:375px) and (orientation:portrait) { 
     .home_header h1 {
         font-size: 60px;
     }  
@@ -334,35 +102,204 @@
     }
 }
 
-@media (max-width:360px)and (orientation:portrait) { 
-    .regis_pic{
-        width: 100%;
+@media (min-width:414px){
+    .home_header{
+        font-size: 0.9em;
     }
     #student_mail, #department, #number, #pass, #repass, #sign_in_button {
-        width: 81%;
+        width: 85%;
+    }    
+}
+
+@media (min-width:414px) and (orientation:portrait) {
+    .regis_pic{
+        height: 28rem;
+    }  
+}
+
+@media (min-width:500px){
+    #student_mail, #department, #number, #pass, #repass, #sign_in_button {
+        width: 22rem;
+    }  
+    .regis_pic{
+        width: 25rem;
+    }  
+}
+
+@media (min-width:768px){    
+    .regis_pic{
+        width: 60%;
+        float: right;
+        height: 30rem;
+        object-fit: fill;
+        position: relative;
+    }    
+    .second_row {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 80vh;
+    }
+    .home_form_box{
+        display: inline-block;
+        width: 45%;
+    }
+    #student_mail, #department, #number, #pass, #repass, #sign_in_button {
+        width: 95%;
+    }
+    .home_header{
+        margin: 80px 0px;
+        text-align: left;
+    } 
+    .home_header h1{
+        font-size:70px;
+    }
+    .lbl{
+        display: none;
+    } 
+}
+
+@media (min-width:768px) and (orientation:portrait) {
+    .home_header {
+        margin-bottom: 15px;
     }
 }
 
-@media (max-width:360px)and (orientation:landscape) {
-    .home_header h1 {
-        font-size: 60px;
-    }
-    .home_header{
-        font-size: 0.8em;
+@media (min-width:768px) and (orientation:landscape) {
+    .home_header {
+        margin-bottom: 60px;
     }
 }
 
-@media (max-width:320px) {
-    .home_header h1 {
-        font-size: 55px;
-    }
-    .home_header{
-        font-size: 0.7em;
-    }
-    .regis_pic{
-        height: 50vh;
+@media (min-width:834px){
+    .regis_pic {
+        width: 55%;
     }
     #student_mail, #department, #number, #pass, #repass, #sign_in_button {
-        width: 90%;
+        width: 82%;
+    } 
+    .home_form_box{
+        width: 45%;
+    } 
+    .home_header{
+        margin-left: 35px;
     }
 }
+
+@media (min-width:834px)and (orientation:landscape) {
+    .regis_pic {
+        height: 35rem;
+    }
+}
+
+@media (min-width:834px)and (orientation:portrait) {
+    .regis_pic {
+        height: 30rem;
+    }
+}
+
+@media (min-width:1024px){
+    .regis_pic {
+        right: -10px;
+        object-fit: contain;
+    }
+    #student_mail, #department, #number, #pass, #repass, #sign_in_button {
+        width: 78%;
+    }  
+    .home_body {
+        margin: 0px;
+    }
+}
+
+@media (min-width:1024px) and (orientation:landscape) {
+    .second_row {
+        margin-top: 0;
+    }    
+    .regis_pic {
+        right: -10px;
+        object-fit: contain;
+    }    
+}
+
+@media (min-width:1024px) and (orientation:portrait) {
+    .second_row {
+        min-height: 60vh;
+    }
+    .home_header{
+        margin-bottom: 20px;
+        margin-left: 44px;
+    }
+    .regis_pic {
+        height: 40rem;
+    }    
+}
+
+@media(min-width:1280px) {
+    #student_mail, #department, #number, #pass, #repass,#sign_in_button {
+        width: 65%;
+    }
+    .home_header{
+        margin-left: 100px;
+    }  
+    .regis_pic {
+        height: 40rem;
+        top: -43px;
+        object-fit: fill;
+    }
+}
+
+@media(min-width:1366px) {
+    #student_mail, #department, #number, #pass, #repass,#sign_in_button {
+        width: 25rem;
+    }
+    .home_header{
+        margin-left: 115px;
+    }  
+    .regis_pic {
+        height: 40rem;
+        top: -43px;
+    }
+}
+
+@media(min-width:1440px) {
+    .home_header {
+        margin: 80px 125px;
+    } 
+    .regis_pic {
+        top: -45px;
+    }
+}
+
+@media(min-width:1536px) {
+    #student_mail, #department, #number, #pass, #repass,#sign_in_button {
+        width: 26rem;
+    }
+    .home_header {
+        margin: 80px 130px;
+    } 
+    .regis_pic {
+        top: -45px;
+    }
+}
+
+@media(min-width:1600px) {
+    .home_header {
+        margin: 80px 140px;
+    }
+    .regis_pic {
+        top: -40px;
+    }  
+}
+
+@media(min-width:1920px) {
+    .home_body{
+        margin: 80px;
+    }  
+    .home_header {
+        margin: 80px 180px;
+    }
+    #student_mail, #department, #number, #pass, #repass,#sign_in_button {
+        width: 27rem;
+    } 
+}
+

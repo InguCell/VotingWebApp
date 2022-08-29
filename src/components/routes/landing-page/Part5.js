@@ -14,32 +14,44 @@ export default function () {
     const inner_container = 
     <>
 
-<div fluid className='inner_container_p5'>
-    <div className='p5_heading'>
-        <h2>
-        How it works
-        </h2>
+    <div fluid className='inner_container_p5'>
+
+          <div className='p5_heading top-heading'>
+            <h2>
+            How it works
+            </h2>     
+          
+            <p className='p5_sub_heading sub-top-heading'>Simple and easy to use using these three(3) steps</p>      
+          
+          </div>
       
-        
-        <p className='p5_sub_heading'>Simple and easy to use using these three(3) steps</p>
-        
-    </div>
-        <img src={how} className='graph'>
-        
-        </img>
-   
 
-      </div>
+        <Container fluid className="part4-lettering part5-lettering">
+          
+          
+          
+          <div className='vote-div1'>
+            <img src={how} className='graph  vote-steps'>
+            </img>
 
-      <div fluid className= "inner_container">
-        <Container fluid className="part4-lettering">
+          </div>
+
+          <div className='vote-div2'>
             <img src={voting} className='voting'>
-        
-        </img>
+
+            </img>
+
+          </div>
+            
         </Container>
 
 
-      </div>
+           
+      
+
+    </div>
+
+      
     </>
       
 
@@ -56,11 +68,11 @@ const main_container = <Container fluid className='main_container_p5'>
 
  
   return (
-  <>
-  <div>
+  
+  <div className='whole'>
        {main_container}
 
   </div>
-  </>
+  
   )
 }

@@ -51,7 +51,7 @@ const main_container = <Container fluid className='main_container'>
  
   return (
   <>
-  <div>
+  <div className='whole'>
        {main_container}
 
   </div>

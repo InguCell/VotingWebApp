@@ -79,12 +79,12 @@
     }
 }
 
-@media (min-width:768px) { 
+@media (min-width:700px) { 
     .row{
         flex-direction: row;
     } 
     .card-heading {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .cards{
         min-height: 33vh;
@@ -95,11 +95,23 @@
     .top-heading h2 {
         font-size: 2.7rem;
     } 
+    .card-sub-heading {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width:768px) {
+    .card-sub-heading {
+        font-size: 0.95rem;
+    }
+    .card-heading {
+        font-size: 1.3rem;
+    }
 }
 
 @media (min-width:768px) and (orientation:landscape) { 
     .cards{
-        min-height: 47vh;
+        min-height: 25rem;
     }
 }
 
@@ -113,5 +125,4 @@
     .top-heading h2 {
         font-size: 5rem;
     }
-
 }

@@ -29,7 +29,7 @@
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:700px) {
     .bar-sizes{
         width: 12rem;
     }
