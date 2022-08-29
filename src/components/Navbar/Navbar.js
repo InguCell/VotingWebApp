@@ -19,7 +19,7 @@ const buttons = {
   const nav_items = <div className='nav-items-container'>
     <Nav className="me-auto">
      
-<Link to="/" style={{textDecoration:"none"}}>
+<Link to="/VotingWebAppHome" style={{textDecoration:"none"}}>
 <Nav.Link href="#features" className='items' style={{marginLeft:"3.1rem", textDecoration:"none"}}>
 
 Home</Nav.Link>
