@@ -1,6 +1,8 @@
 import React, { Component , lazy, Suspense } from 'react'; 
-import girl_picture from './picture1.png';
+import girl_picture from './picture1.webp';
 import { Container} from "react-bootstrap";
+
+const Picture1 = lazy(()=>import('./picture1.webp'));
 
 
 export default function Part1() {
@@ -17,8 +19,10 @@ export default function Part1() {
     const part1 = <Container fluid className='part1'>
 
     
+    <img class="picture1" src={girl_picture} alt=""/>
+   
 
-      <img class="picture1" src={girl_picture} alt=""/> 
+      
       
       <div className='writing-container'>
     <h2 class="part1-writing">Fast, Secured and <br />Accessible Voting System</h2>  

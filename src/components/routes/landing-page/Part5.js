@@ -2,7 +2,7 @@ import React from 'react'
 import {Container} from 'react-bootstrap'
 import "./Part5.css"
 import how from './picture7.png';
-import voting from './picture8.png'
+import voting from './picture8.webp'
 
 
 
