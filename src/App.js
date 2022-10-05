@@ -12,6 +12,14 @@ import Login from "./components/login-page/login";
 import About from "./components/about-page/about";
 import Forgot from "./components/login-page/forgot-password/forgot_password";
 
+//Dashboard
+import Vote from "./components/dashboard/pages/vote/vote";
+import Voteguidelines from "./components/dashboard/pages/voteGuidelines/voteGuidelines";
+import Candidatedetails from "./components/dashboard/pages/candidateDetails/candidateDetail";
+import Dashboard from "./components/dashboard/pages/dashboard/dashboard";
+import Candidates from "./components/dashboard/pages/candidates/candidates";
+import Sidebar from "./components/dashboard/sidebar/sidebar";
+
  import Landing from  "./components/routes/landing-page/LandingPage";
 // import { BrowserRouter, Outlet, Route, Routes} from 'react-router-dom';
 
@@ -27,9 +35,27 @@ function App() {
 
   return (
 
-    <div className="main_app_js_div">
+    <div className="main_app_js_div">       
+      
+      <BrowserRouter>
+      <Sidebar className="fixed-sidebar">
+
+        <Routes>
+            <Route path="/Candidatedetails" element={ <Candidatedetails/> } />
+            <Route path="/Candidates" element={ <Candidates/> } />
+            <Route path="/Dashboard" element={ <Dashboard/> } />
+            <Route path="/Vote" element={ <Vote/> }/>
+            <Route path="/Voteguidelines" element={ <Voteguidelines/> }/> 
+        </Routes>
+
+      </Sidebar>
+
+
+      </BrowserRouter>
+      
+
    
-<BrowserRouter>
+{/* <BrowserRouter>
 <Navbar />
 
 <Routes>
@@ -47,7 +73,7 @@ function App() {
 
 
 <Footer/>
-</BrowserRouter>
+</BrowserRouter> */}
 
 
      {/* [] key features integrated for performace--- */}

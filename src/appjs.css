@@ -1,3 +1,16 @@
-html, body,.main_app_js_div{
+html, body,.main_app_js_div,.fixed{
     min-height: 100vh;
+}
+
+.fixed{
+    display: grid;
+    grid-template-areas: "sidebar header";
+}
+
+.fixed-sidebar{
+    grid-area: sidebar;
+}
+
+.fixed-header{
+    grid-area: header;
 }

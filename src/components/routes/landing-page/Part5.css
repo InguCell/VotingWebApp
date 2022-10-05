@@ -24,6 +24,12 @@
 
 }
 
+@media screen and (min-width: 500px) {
+    .voting{
+        width: 17rem;
+    }
+}
+
 @media screen and (min-width: 700px) {
     .part5-lettering{
         flex-direction: row;
@@ -31,6 +37,7 @@
     }
     .voting{
         height: 28rem;
+        width: 13rem;
     }
     .vote-steps{
         width: 28rem;
@@ -42,194 +49,9 @@
         width: 40%;
     }
 }
-/* 
 
-
-
-
-
-@media screen and (min-width: 0px) and (orientation: portrait){
-
-        .p5_heading h2{
-            display: flex;
-            justify-content: center;
-            color:#8c1f1f;
-            font-weight: bold;
-
-        }
-
-        .p5_sub_heading{
-            text-align: center;
-
-        }
-
-        .main_container_p5{
-            width:100%;
-            height: 65rem;
-            background-color: white;
-            color:black;
-            display: flex;
-            flex-direction: column;
-            gap:5rem;
-        
-        }
-        
-        
-        .voting{
-            position: relative;
-            width: 100%;
-        }
-
-    } 
-
-    @media screen and (min-width: 768px) and (orientation: portrait){
-        .main_container_p5{
-            height: 35rem;
-            display: flex;
-            flex-direction: row;
-            gap:5rem;
-        
-        }
-        
-        
-        
-        .voting{
-            width:15rem;
-        }
-
-        .p5_heading h2{
-            display: flex;
-            justify-content: center;
-            color:#8c1f1f;
-            font-weight: bold;
-        
-        }
-        
-        .p5_sub_heading{
-            display: flex;
-            position: relative;
-        }
-
-
-
-    } 
-
-    @media screen and (min-width: 700px) and (orientation: landscape){
-
-        .main_container_p5{
-            height: 35rem;
-            display: flex;
-            flex-direction: row;
-            gap:5rem;
-            margin-top:0rem;
-        
-        }
-        
-        
-        .voting{
-            width:15rem;
-            top:0.6rem;
-            padding-top: 9rem;
-        }
-
-        .p5_heading h2{
-            display: flex;
-            justify-content: center;
-            color:#8c1f1f;
-            font-weight: bold;
-        
-        }
-        
-        .p5_sub_heading{
-            display: flex;
-            color: black;
-        }
-
-
-       
-
-    } 
-
-    @media screen and (min-width: 1000px) and (orientation: landscape){
-        
-        
-        .graph{
-            width:20rem;
-        }
-
-
-    } 
-
-    @media screen and (min-width: 900px) and (orientation: portrait){
-       
-    .p5_sub_heading{
-        display: flex;
-        position: relative;
+@media screen and (min-width: 1024px){
+    .voting {
+        width: 17rem;
     }
-       
-       
-
-    } 
-
-    
-       
-       
-
-    @media screen and (min-width: 1280px) and (orientation: landscape){
-       
-        .main_container_p5{
-            height: 40rem;   
-        }
-        
-
-        
-        
-        
-        .voting{
-            width:17rem;
-        }
-
-
-    } 
-
-    @media screen and (min-width: 1280px) and (orientation: landscape){
-       
-        .main_container_p5{
-            height: 45rem;   
-            margin-top:0rem;
-        }
-
-        
-        
-        
-        .graph{
-            width:24rem;
-        }
-
-
-    } 
-
-    @media screen and (min-width: 1500px) and (orientation: landscape){
-        
-        
-        .graph{
-            width:27rem;
-        }
-
-
-    } 
-
-    @media screen and (min-width: 1900px) and (orientation: landscape){
-        
-        
-        .graph{
-            width:31rem;
-        }
-
-
-    } 
-
-
-
-
-     */
+}

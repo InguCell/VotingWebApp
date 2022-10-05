@@ -1,0 +1,213 @@
+.first-main-wrapper{
+    padding: 20px 70px;
+}
+
+.second-main-wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.profile-main-wrapper,.profile-main-wrapper2{
+    width: 30rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.promise-main-wrapper2{
+    height: 12rem;
+    overflow-y: auto;
+}
+
+.promise-main-wrapper2 h5{
+    color: rgb(140,31,31);
+}
+
+.profile-section1{
+    width: 15rem;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.candidate-profile-pic{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.img-body{
+    display: flex;
+    align-items: center;
+    height:180px ;
+    width: 180px;
+    border-radius: 50%;
+    border: 2px solid rgb(140,31,31);
+    border-top: 0px solid white;
+    border-right: 0px solid white;    
+}
+
+.profile-section1 h6{
+    font-weight: 600;
+}
+
+.profile-sub-head{
+    color: rgb(140,31,31);
+    font-weight: 600;
+}
+
+.profile-sub1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.profile-sub2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.profile-sub2 section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.profile-sub2 section p{
+    margin-bottom: 0px;
+}
+.profile-bullet1, .profile-bullet2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.profile-bullet1{
+    background-color: rgb(140,31,31);
+}
+
+.profile-bullet2{
+    background-color: rgb(255,180,16); 
+}
+
+@media (min-width:0px) {
+    .first-main-wrapper{
+        padding: 20px 0px;
+    }
+    .second-main-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* later delete it so the grid will take care of the height */
+    .profile-section1{
+        height: 30rem;
+    }
+    .profile-sub1 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .profile-main-wrapper, .profile-main-wrapper2 {
+        width: auto;
+        text-align: center;
+    }
+    .detail-main-wrapper2 {
+        text-align: center;
+
+    }
+    .detail-main-wrapper2 h1{
+        font-size: 2rem;
+
+    }   
+}
+
+@media (min-width:600px) {
+    .first-main-wrapper{
+        padding: 20px 0px;
+    }
+    .second-main-wrapper{
+        display: grid;
+    }
+    /* later delete it so the grid will take care of the height */
+    .profile-section1{
+        height: auto;
+    }
+    .profile-sub1 {
+        flex-direction: row;
+        gap: 3rem;
+    }
+    .profile-main-wrapper, .profile-main-wrapper2 {
+        width: 30rem;
+        text-align: center;
+    }
+    .detail-main-wrapper2 {
+        text-align: center;
+    }
+    .detail-main-wrapper2 h1{
+        font-size: 2rem;
+    }    
+}
+
+@media (min-width:700px) {
+    .profile-section1{
+        height: 30rem;
+        width: 13rem;
+    }
+    .profile-sub1 {
+        gap: 1rem;
+    }
+    .profile-main-wrapper, .profile-main-wrapper2 {
+        width: 22rem;
+        padding: 10px;
+    }
+}
+
+@media (min-width:800px) {
+    .profile-main-wrapper, .profile-main-wrapper2 {
+        width: 30rem;
+        padding: 10px;        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:1000px) {
+    .detail-main-wrapper{
+        margin: 20px 35px;        
+    }
+}
+
+@media (min-width:1300px) {
+    .profile-section1{
+        width: 15rem;
+    }
+}
+
+@media (min-width:1400px) {
+    .profile-section1{
+        width: 18rem;
+    }
+}
+
+@media (min-width:1600px) {
+    .profile-section1{
+        width: 20rem;
+    }
+    .profile-main-wrapper, .profile-main-wrapper2 {
+        width: 40rem;
+    }
+    .detail-main-wrapper{
+        margin: 20px 70px;
+    }
+}

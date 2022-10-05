@@ -1,0 +1,228 @@
+.vote-overall-second{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+}
+.ongoing-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.ongoing-wrapper section ul{
+    list-style: none;
+}
+
+.ongoing-wrapper section h5{
+    margin-bottom: 1.6rem;
+}
+
+.ongoing-wrapper section ul li{
+    margin-bottom: 1rem;
+}
+
+.calendar-main div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.depart-sec{
+    text-align: center;
+    height: 3rem;
+    color: white;
+    padding: 10px;
+    background-color: rgb(140,31,31);
+}
+
+.activity-first, .activity-first div, .activity-second-div{
+    display: flex; 
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.activity-second-div{
+    width: 100%;
+}
+
+.activity-second {
+    display: flex; 
+    flex-direction:column;
+    align-items:center;
+}
+
+.activity-second div p{
+    margin-bottom: 0px;
+}
+
+.activity-bullets{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+
+}
+
+.ongoing-wrapper,.activity-main{
+    width: 32rem;
+}
+
+.monitor-first-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.monitor-circular-bars{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.ongoing-wrapper,.calendar-main,
+ .activity-main, .monitor-circular-bars,
+  .live-result-main{
+    border-radius: 10px;
+}
+.live-result-main{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width:0px) {
+    /* change the display later for the grid to work */
+    .vote-overall-second{
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
+    }
+    .ongoing-wrapper{
+        flex-direction: column;
+        width: 100%;
+    }
+    .ongoing-pic{
+        width: 15rem;
+        object-fit: contain;
+    }
+    .calendar-main2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .calendar-main {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .activity-second-div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .activity-first{
+        gap: 4px;
+    }
+    .activity-main {
+        width: 100%;
+        font-size: 13px;
+        text-align: center;
+    }
+    .activity-second {
+        gap: 2rem;
+    }
+    .monitor-circular-bars{
+        text-align: center;
+        width: 100%;
+    }
+    .monitor-first-section{
+        flex-direction: column;
+        gap: 3.5rem;
+    }    
+    .vote-overall-first{
+        text-align: center;
+        margin: 20px auto;
+    }
+}
+
+@media (min-width:500px) {
+    .ongoing-wrapper{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .ongoing-wrapper section{
+        text-align: left;
+    }
+    .calendar-main2{
+        justify-content: space-between;
+    }
+    .calendar-main div{
+        gap: 3rem;
+    }
+    .activity-second-div {
+        flex-direction: row;
+        font-size: 14px;
+    }    
+}
+
+@media (min-width: 700px){
+    .vote-overall-second {
+        display: grid;
+        gap: 1rem;
+        row-gap: 3rem;
+    }
+    .ongoing-wrapper section ul{
+        padding-left: 0;
+    }
+    .ongoing-pic{
+        width: 10rem;
+    }
+    .calendar-main2 section{
+        font-size: 15px;
+    }
+    .depart-sec {
+        padding: 8px;
+        height: 2.5rem;
+    }
+    .depart-sec p{
+        margin-bottom: 0;
+    }
+    .activity-second {
+        gap: 1rem;
+    }
+    .activity-first {
+        margin-bottom: 1rem;
+    }
+    .monitor-first-section {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    .vote-overall-first-greet{
+        margin-bottom: 4rem;
+    }
+}
+
+@media (min-width: 800px){
+    .ongoing-pic {
+        width: 14rem;
+    }
+}
+
+@media (min-width: 1000px){
+    .ongoing-wrapper{
+        height: 17rem;
+    }
+    .calendar-main{
+        height: fit-content;
+        width: 21rem;
+    }
+    .activity-main {
+        padding: 15px;
+    }
+    .live-result-main{
+        gap: 3rem;
+        width: fit-content;
+        padding: 15px;
+    }
+}

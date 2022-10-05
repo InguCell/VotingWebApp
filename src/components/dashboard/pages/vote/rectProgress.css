@@ -1,0 +1,6 @@
+.progressbar{
+    overflow: hidden;
+    width: 50px;
+    height: 8rem;
+    background-color: white;
+}
