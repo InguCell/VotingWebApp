@@ -46,6 +46,8 @@ function App() {
             <Route path="/Dashboard" element={ <Dashboard/> } />
             <Route path="/Vote" element={ <Vote/> }/>
             <Route path="/Voteguidelines" element={ <Voteguidelines/> }/> 
+            <Route path="/login" element={ <Login/> }/> 
+            <Route path="/register" element={ <Register/> } />
         </Routes>
 
       </Sidebar>
@@ -61,7 +63,8 @@ function App() {
 <Routes>
   <Route path="/contact" element={ <Contact/> } />
   <Route path="/register" element={ <Register/> } />
-  <Route path="/FAQ" element={ <FAQ/> } />
+  <Route path="/FAQ" element={ <FAQ/> } />ls
+  
   <Route path="/Login" element={ <Login/> }/>
   <Route path="/forgot" element={ <Forgot/> }/>  
   <Route exact path="/VotingWebAppHome" element={ <Landing /> }></Route>
